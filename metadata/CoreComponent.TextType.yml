@@ -9,7 +9,7 @@ Greenter\Ubl\Entity\CoreComponent\TextType:
                 setter: value
             type: string
             xml_element:
-                cdata: false
+                cdata: true
         languageID:
             expose: true
             access_type: public_method
