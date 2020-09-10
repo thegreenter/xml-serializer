@@ -9,7 +9,4 @@ luego ejecutar:
 vendor/bin/xsd2php convert config.yml ./maindoc/UBL-Invoice-2.1.xsd
 ```
 
-> Hay un [issue](https://github.com/goetas-webservices/xsd2php/issues/118), que no coloca el namespace en InvoiceLine, tenerlo en cuenta.
-
-
 Más información en este [repositorio](https://github.com/goetas-webservices). 
