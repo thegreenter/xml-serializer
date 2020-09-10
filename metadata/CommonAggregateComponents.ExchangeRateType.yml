@@ -1,0 +1,101 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ExchangeRateType:
+    properties:
+        sourceCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceCurrencyCode
+                setter: setSourceCurrencyCode
+            type: Greenter\Ubl\Entity\CommonBasic\SourceCurrencyCode
+        sourceCurrencyBaseRate:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyBaseRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceCurrencyBaseRate
+                setter: setSourceCurrencyBaseRate
+            type: Greenter\Ubl\Entity\CommonBasic\SourceCurrencyBaseRate
+        targetCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetCurrencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTargetCurrencyCode
+                setter: setTargetCurrencyCode
+            type: Greenter\Ubl\Entity\CommonBasic\TargetCurrencyCode
+        targetCurrencyBaseRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetCurrencyBaseRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTargetCurrencyBaseRate
+                setter: setTargetCurrencyBaseRate
+            type: Greenter\Ubl\Entity\CommonBasic\TargetCurrencyBaseRate
+        exchangeMarketID:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeMarketID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExchangeMarketID
+                setter: setExchangeMarketID
+            type: Greenter\Ubl\Entity\CommonBasic\ExchangeMarketID
+        calculationRate:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationRate
+                setter: setCalculationRate
+            type: Greenter\Ubl\Entity\CommonBasic\CalculationRate
+        mathematicOperatorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MathematicOperatorCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMathematicOperatorCode
+                setter: setMathematicOperatorCode
+            type: Greenter\Ubl\Entity\CommonBasic\MathematicOperatorCode
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: Greenter\Ubl\Entity\CommonBasic\Date
+        foreignExchangeContract:
+            expose: true
+            access_type: public_method
+            serialized_name: ForeignExchangeContract
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getForeignExchangeContract
+                setter: setForeignExchangeContract
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ForeignExchangeContract

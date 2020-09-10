@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonBasic\TestMethod:
+    xml_root_name: TestMethod
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

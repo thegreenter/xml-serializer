@@ -1,0 +1,61 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TaxTotalType:
+    properties:
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TaxAmount
+        roundingAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: RoundingAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoundingAmount
+                setter: setRoundingAmount
+            type: Greenter\Ubl\Entity\CommonBasic\RoundingAmount
+        taxEvidenceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEvidenceIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEvidenceIndicator
+                setter: setTaxEvidenceIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\TaxEvidenceIndicator
+        taxIncludedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIncludedIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxIncludedIndicator
+                setter: setTaxIncludedIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\TaxIncludedIndicator
+        taxSubtotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxSubtotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxSubtotal
+                setter: setTaxSubtotal
+            xml_list:
+                inline: true
+                entry_name: TaxSubtotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TaxSubtotal>

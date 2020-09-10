@@ -1,0 +1,279 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TenderingProcessType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        originalContractingSystemID:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalContractingSystemID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOriginalContractingSystemID
+                setter: setOriginalContractingSystemID
+            type: Greenter\Ubl\Entity\CommonBasic\OriginalContractingSystemID
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        negotiationDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: NegotiationDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNegotiationDescription
+                setter: setNegotiationDescription
+            xml_list:
+                inline: true
+                entry_name: NegotiationDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\NegotiationDescription>
+        procedureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcedureCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProcedureCode
+                setter: setProcedureCode
+            type: Greenter\Ubl\Entity\CommonBasic\ProcedureCode
+        urgencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UrgencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUrgencyCode
+                setter: setUrgencyCode
+            type: Greenter\Ubl\Entity\CommonBasic\UrgencyCode
+        expenseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpenseCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpenseCode
+                setter: setExpenseCode
+            type: Greenter\Ubl\Entity\CommonBasic\ExpenseCode
+        partPresentationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PartPresentationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPartPresentationCode
+                setter: setPartPresentationCode
+            type: Greenter\Ubl\Entity\CommonBasic\PartPresentationCode
+        contractingSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractingSystemCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContractingSystemCode
+                setter: setContractingSystemCode
+            type: Greenter\Ubl\Entity\CommonBasic\ContractingSystemCode
+        submissionMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubmissionMethodCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubmissionMethodCode
+                setter: setSubmissionMethodCode
+            type: Greenter\Ubl\Entity\CommonBasic\SubmissionMethodCode
+        candidateReductionConstraintIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CandidateReductionConstraintIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCandidateReductionConstraintIndicator
+                setter: setCandidateReductionConstraintIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\CandidateReductionConstraintIndicator
+        governmentAgreementConstraintIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentAgreementConstraintIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGovernmentAgreementConstraintIndicator
+                setter: setGovernmentAgreementConstraintIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\GovernmentAgreementConstraintIndicator
+        documentAvailabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentAvailabilityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentAvailabilityPeriod
+                setter: setDocumentAvailabilityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DocumentAvailabilityPeriod
+        tenderSubmissionDeadlinePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderSubmissionDeadlinePeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderSubmissionDeadlinePeriod
+                setter: setTenderSubmissionDeadlinePeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TenderSubmissionDeadlinePeriod
+        invitationSubmissionPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: InvitationSubmissionPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInvitationSubmissionPeriod
+                setter: setInvitationSubmissionPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\InvitationSubmissionPeriod
+        participationRequestReceptionPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipationRequestReceptionPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParticipationRequestReceptionPeriod
+                setter: setParticipationRequestReceptionPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ParticipationRequestReceptionPeriod
+        noticeDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: NoticeDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNoticeDocumentReference
+                setter: setNoticeDocumentReference
+            xml_list:
+                inline: true
+                entry_name: NoticeDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\NoticeDocumentReference>
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            xml_list:
+                inline: true
+                entry_name: AdditionalDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AdditionalDocumentReference>
+        processJustification:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessJustification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcessJustification
+                setter: setProcessJustification
+            xml_list:
+                inline: true
+                entry_name: ProcessJustification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ProcessJustification>
+        economicOperatorShortList:
+            expose: true
+            access_type: public_method
+            serialized_name: EconomicOperatorShortList
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEconomicOperatorShortList
+                setter: setEconomicOperatorShortList
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EconomicOperatorShortList
+        openTenderEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: OpenTenderEvent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOpenTenderEvent
+                setter: setOpenTenderEvent
+            xml_list:
+                inline: true
+                entry_name: OpenTenderEvent
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\OpenTenderEvent>
+        auctionTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: AuctionTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAuctionTerms
+                setter: setAuctionTerms
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AuctionTerms
+        frameworkAgreement:
+            expose: true
+            access_type: public_method
+            serialized_name: FrameworkAgreement
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFrameworkAgreement
+                setter: setFrameworkAgreement
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\FrameworkAgreement

@@ -1,0 +1,57 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ForecastExceptionCriterionLineType:
+    properties:
+        forecastPurposeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastPurposeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastPurposeCode
+                setter: setForecastPurposeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ForecastPurposeCode
+        forecastTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastTypeCode
+                setter: setForecastTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ForecastTypeCode
+        comparisonDataSourceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparisonDataSourceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparisonDataSourceCode
+                setter: setComparisonDataSourceCode
+            type: Greenter\Ubl\Entity\CommonBasic\ComparisonDataSourceCode
+        dataSourceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DataSourceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDataSourceCode
+                setter: setDataSourceCode
+            type: Greenter\Ubl\Entity\CommonBasic\DataSourceCode
+        timeDeltaDaysQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeDeltaDaysQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTimeDeltaDaysQuantity
+                setter: setTimeDeltaDaysQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\TimeDeltaDaysQuantity

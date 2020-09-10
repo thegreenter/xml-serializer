@@ -1,0 +1,197 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        copyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyIndicator
+                setter: setCopyIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\CopyIndicator
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\IssueDate
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: Greenter\Ubl\Entity\CommonBasic\IssueTime
+        documentTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentTypeCode
+                setter: setDocumentTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\DocumentTypeCode
+        documentType:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentType
+                setter: setDocumentType
+            type: Greenter\Ubl\Entity\CommonBasic\DocumentType
+        xPath:
+            expose: true
+            access_type: public_method
+            serialized_name: XPath
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getXPath
+                setter: setXPath
+            xml_list:
+                inline: true
+                entry_name: XPath
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\XPath>
+        languageID:
+            expose: true
+            access_type: public_method
+            serialized_name: LanguageID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLanguageID
+                setter: setLanguageID
+            type: Greenter\Ubl\Entity\CommonBasic\LanguageID
+        localeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocaleCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLocaleCode
+                setter: setLocaleCode
+            type: Greenter\Ubl\Entity\CommonBasic\LocaleCode
+        versionID:
+            expose: true
+            access_type: public_method
+            serialized_name: VersionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVersionID
+                setter: setVersionID
+            type: Greenter\Ubl\Entity\CommonBasic\VersionID
+        documentStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentStatusCode
+                setter: setDocumentStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\DocumentStatusCode
+        documentDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentDescription
+                setter: setDocumentDescription
+            xml_list:
+                inline: true
+                entry_name: DocumentDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\DocumentDescription>
+        attachment:
+            expose: true
+            access_type: public_method
+            serialized_name: Attachment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAttachment
+                setter: setAttachment
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Attachment
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ValidityPeriod
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\IssuerParty
+        resultOfVerification:
+            expose: true
+            access_type: public_method
+            serialized_name: ResultOfVerification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResultOfVerification
+                setter: setResultOfVerification
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ResultOfVerification

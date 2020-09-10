@@ -1,0 +1,87 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\WorkPhaseReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        workPhaseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkPhaseCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWorkPhaseCode
+                setter: setWorkPhaseCode
+            type: Greenter\Ubl\Entity\CommonBasic\WorkPhaseCode
+        workPhase:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkPhase
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWorkPhase
+                setter: setWorkPhase
+            xml_list:
+                inline: true
+                entry_name: WorkPhase
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\WorkPhase>
+        progressPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProgressPercent
+                setter: setProgressPercent
+            type: Greenter\Ubl\Entity\CommonBasic\ProgressPercent
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: Greenter\Ubl\Entity\CommonBasic\StartDate
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: Greenter\Ubl\Entity\CommonBasic\EndDate
+        workOrderDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkOrderDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWorkOrderDocumentReference
+                setter: setWorkOrderDocumentReference
+            xml_list:
+                inline: true
+                entry_name: WorkOrderDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\WorkOrderDocumentReference>

@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\Etsi\ObjectIdentifier:
+    xml_root_name: ObjectIdentifier
+    xml_root_namespace: 'http://uri.etsi.org/01903/v1.3.2#'

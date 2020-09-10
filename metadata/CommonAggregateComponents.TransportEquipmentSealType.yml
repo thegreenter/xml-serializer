@@ -1,0 +1,57 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TransportEquipmentSealType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        sealIssuerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealIssuerTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealIssuerTypeCode
+                setter: setSealIssuerTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\SealIssuerTypeCode
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: Greenter\Ubl\Entity\CommonBasic\Condition
+        sealStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealStatusCode
+                setter: setSealStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\SealStatusCode
+        sealingPartyType:
+            expose: true
+            access_type: public_method
+            serialized_name: SealingPartyType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealingPartyType
+                setter: setSealingPartyType
+            type: Greenter\Ubl\Entity\CommonBasic\SealingPartyType

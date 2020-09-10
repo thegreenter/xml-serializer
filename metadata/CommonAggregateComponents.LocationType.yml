@@ -1,0 +1,154 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\LocationType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        conditions:
+            expose: true
+            access_type: public_method
+            serialized_name: Conditions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConditions
+                setter: setConditions
+            xml_list:
+                inline: true
+                entry_name: Conditions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Conditions>
+        countrySubentity:
+            expose: true
+            access_type: public_method
+            serialized_name: CountrySubentity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCountrySubentity
+                setter: setCountrySubentity
+            type: Greenter\Ubl\Entity\CommonBasic\CountrySubentity
+        countrySubentityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountrySubentityCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCountrySubentityCode
+                setter: setCountrySubentityCode
+            type: Greenter\Ubl\Entity\CommonBasic\CountrySubentityCode
+        locationTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLocationTypeCode
+                setter: setLocationTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\LocationTypeCode
+        informationURI:
+            expose: true
+            access_type: public_method
+            serialized_name: InformationURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInformationURI
+                setter: setInformationURI
+            type: Greenter\Ubl\Entity\CommonBasic\InformationURI
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            xml_list:
+                inline: true
+                entry_name: ValidityPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ValidityPeriod>
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Address
+        subsidiaryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: SubsidiaryLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubsidiaryLocation
+                setter: setSubsidiaryLocation
+            xml_list:
+                inline: true
+                entry_name: SubsidiaryLocation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SubsidiaryLocation>
+        locationCoordinate:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCoordinate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocationCoordinate
+                setter: setLocationCoordinate
+            xml_list:
+                inline: true
+                entry_name: LocationCoordinate
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\LocationCoordinate>

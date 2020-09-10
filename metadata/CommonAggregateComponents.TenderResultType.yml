@@ -1,0 +1,190 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TenderResultType:
+    properties:
+        tenderResultCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderResultCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTenderResultCode
+                setter: setTenderResultCode
+            type: Greenter\Ubl\Entity\CommonBasic\TenderResultCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        advertisementAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvertisementAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdvertisementAmount
+                setter: setAdvertisementAmount
+            type: Greenter\Ubl\Entity\CommonBasic\AdvertisementAmount
+        awardDate:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAwardDate
+                setter: setAwardDate
+            type: Greenter\Ubl\Entity\CommonBasic\AwardDate
+        awardTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAwardTime
+                setter: setAwardTime
+            type: Greenter\Ubl\Entity\CommonBasic\AwardTime
+        receivedTenderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedTenderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedTenderQuantity
+                setter: setReceivedTenderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ReceivedTenderQuantity
+        lowerTenderAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LowerTenderAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLowerTenderAmount
+                setter: setLowerTenderAmount
+            type: Greenter\Ubl\Entity\CommonBasic\LowerTenderAmount
+        higherTenderAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: HigherTenderAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHigherTenderAmount
+                setter: setHigherTenderAmount
+            type: Greenter\Ubl\Entity\CommonBasic\HigherTenderAmount
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: Greenter\Ubl\Entity\CommonBasic\StartDate
+        receivedElectronicTenderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedElectronicTenderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedElectronicTenderQuantity
+                setter: setReceivedElectronicTenderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ReceivedElectronicTenderQuantity
+        receivedForeignTenderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedForeignTenderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedForeignTenderQuantity
+                setter: setReceivedForeignTenderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ReceivedForeignTenderQuantity
+        contract:
+            expose: true
+            access_type: public_method
+            serialized_name: Contract
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContract
+                setter: setContract
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Contract
+        awardedTenderedProject:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardedTenderedProject
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAwardedTenderedProject
+                setter: setAwardedTenderedProject
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AwardedTenderedProject
+        contractFormalizationPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractFormalizationPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractFormalizationPeriod
+                setter: setContractFormalizationPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ContractFormalizationPeriod
+        subcontractTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: SubcontractTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubcontractTerms
+                setter: setSubcontractTerms
+            xml_list:
+                inline: true
+                entry_name: SubcontractTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SubcontractTerms>
+        winningParty:
+            expose: true
+            access_type: public_method
+            serialized_name: WinningParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWinningParty
+                setter: setWinningParty
+            xml_list:
+                inline: true
+                entry_name: WinningParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\WinningParty>

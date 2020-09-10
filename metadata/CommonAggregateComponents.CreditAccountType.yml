@@ -1,0 +1,13 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\CreditAccountType:
+    properties:
+        accountID:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountID
+                setter: setAccountID
+            type: Greenter\Ubl\Entity\CommonBasic\AccountID

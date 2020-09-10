@@ -1,0 +1,168 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ReminderLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        balanceBroughtForwardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: BalanceBroughtForwardIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBalanceBroughtForwardIndicator
+                setter: setBalanceBroughtForwardIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\BalanceBroughtForwardIndicator
+        debitLineAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DebitLineAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDebitLineAmount
+                setter: setDebitLineAmount
+            type: Greenter\Ubl\Entity\CommonBasic\DebitLineAmount
+        creditLineAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditLineAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCreditLineAmount
+                setter: setCreditLineAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CreditLineAmount
+        accountingCostCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCostCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCostCode
+                setter: setAccountingCostCode
+            type: Greenter\Ubl\Entity\CommonBasic\AccountingCostCode
+        accountingCost:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCost
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCost
+                setter: setAccountingCost
+            type: Greenter\Ubl\Entity\CommonBasic\AccountingCost
+        penaltySurchargePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltySurchargePercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltySurchargePercent
+                setter: setPenaltySurchargePercent
+            type: Greenter\Ubl\Entity\CommonBasic\PenaltySurchargePercent
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: Greenter\Ubl\Entity\CommonBasic\Amount
+        paymentPurposeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentPurposeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentPurposeCode
+                setter: setPaymentPurposeCode
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentPurposeCode
+        reminderPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReminderPeriod
+                setter: setReminderPeriod
+            xml_list:
+                inline: true
+                entry_name: ReminderPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ReminderPeriod>
+        billingReference:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBillingReference
+                setter: setBillingReference
+            xml_list:
+                inline: true
+                entry_name: BillingReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\BillingReference>
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ExchangeRate

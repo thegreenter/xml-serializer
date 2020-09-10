@@ -1,0 +1,87 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ConsumptionType:
+    properties:
+        utilityStatementTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilityStatementTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUtilityStatementTypeCode
+                setter: setUtilityStatementTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\UtilityStatementTypeCode
+        mainPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: MainPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMainPeriod
+                setter: setMainPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MainPeriod
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AllowanceCharge>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TaxTotal>
+        energyWaterSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: EnergyWaterSupply
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEnergyWaterSupply
+                setter: setEnergyWaterSupply
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EnergyWaterSupply
+        telecommunicationsSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsSupply
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTelecommunicationsSupply
+                setter: setTelecommunicationsSupply
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TelecommunicationsSupply
+        legalMonetaryTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalMonetaryTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLegalMonetaryTotal
+                setter: setLegalMonetaryTotal
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\LegalMonetaryTotal

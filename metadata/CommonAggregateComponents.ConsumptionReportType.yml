@@ -1,0 +1,212 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ConsumptionReportType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        consumptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionType
+                setter: setConsumptionType
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionType
+        consumptionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionTypeCode
+                setter: setConsumptionTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        totalConsumedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalConsumedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalConsumedQuantity
+                setter: setTotalConsumedQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\TotalConsumedQuantity
+        basicConsumedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: BasicConsumedQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBasicConsumedQuantity
+                setter: setBasicConsumedQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\BasicConsumedQuantity
+        residentOccupantsNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidentOccupantsNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidentOccupantsNumeric
+                setter: setResidentOccupantsNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\ResidentOccupantsNumeric
+        consumersEnergyLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumersEnergyLevelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumersEnergyLevelCode
+                setter: setConsumersEnergyLevelCode
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumersEnergyLevelCode
+        consumersEnergyLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumersEnergyLevel
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumersEnergyLevel
+                setter: setConsumersEnergyLevel
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumersEnergyLevel
+        residenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidenceType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidenceType
+                setter: setResidenceType
+            type: Greenter\Ubl\Entity\CommonBasic\ResidenceType
+        residenceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidenceTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResidenceTypeCode
+                setter: setResidenceTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ResidenceTypeCode
+        heatingType:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatingType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHeatingType
+                setter: setHeatingType
+            type: Greenter\Ubl\Entity\CommonBasic\HeatingType
+        heatingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHeatingTypeCode
+                setter: setHeatingTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\HeatingTypeCode
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Period
+        guidanceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: GuidanceDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGuidanceDocumentReference
+                setter: setGuidanceDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\GuidanceDocumentReference
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference
+        consumptionReportReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionReportReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumptionReportReference
+                setter: setConsumptionReportReference
+            xml_list:
+                inline: true
+                entry_name: ConsumptionReportReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ConsumptionReportReference>
+        consumptionHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionHistory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumptionHistory
+                setter: setConsumptionHistory
+            xml_list:
+                inline: true
+                entry_name: ConsumptionHistory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ConsumptionHistory>

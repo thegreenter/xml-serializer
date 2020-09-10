@@ -1,0 +1,46 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\EmissionCalculationMethodType:
+    properties:
+        calculationMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationMethodCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationMethodCode
+                setter: setCalculationMethodCode
+            type: Greenter\Ubl\Entity\CommonBasic\CalculationMethodCode
+        fullnessIndicationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FullnessIndicationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFullnessIndicationCode
+                setter: setFullnessIndicationCode
+            type: Greenter\Ubl\Entity\CommonBasic\FullnessIndicationCode
+        measurementFromLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementFromLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementFromLocation
+                setter: setMeasurementFromLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MeasurementFromLocation
+        measurementToLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementToLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementToLocation
+                setter: setMeasurementToLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MeasurementToLocation

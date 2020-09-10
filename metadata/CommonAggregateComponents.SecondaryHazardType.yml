@@ -1,0 +1,61 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\SecondaryHazardType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        placardNotation:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardNotation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardNotation
+                setter: setPlacardNotation
+            type: Greenter\Ubl\Entity\CommonBasic\PlacardNotation
+        placardEndorsement:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardEndorsement
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardEndorsement
+                setter: setPlacardEndorsement
+            type: Greenter\Ubl\Entity\CommonBasic\PlacardEndorsement
+        emergencyProceduresCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyProceduresCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEmergencyProceduresCode
+                setter: setEmergencyProceduresCode
+            type: Greenter\Ubl\Entity\CommonBasic\EmergencyProceduresCode
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: Extension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            xml_list:
+                inline: true
+                entry_name: Extension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Extension>

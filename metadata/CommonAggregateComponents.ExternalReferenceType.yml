@@ -1,0 +1,127 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ExternalReferenceType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getURI
+                setter: setURI
+            type: Greenter\Ubl\Entity\CommonBasic\URI
+        documentHash:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentHash
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentHash
+                setter: setDocumentHash
+            type: Greenter\Ubl\Entity\CommonBasic\DocumentHash
+        hashAlgorithmMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: HashAlgorithmMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHashAlgorithmMethod
+                setter: setHashAlgorithmMethod
+            type: Greenter\Ubl\Entity\CommonBasic\HashAlgorithmMethod
+        expiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryDate
+                setter: setExpiryDate
+            type: Greenter\Ubl\Entity\CommonBasic\ExpiryDate
+        expiryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryTime
+                setter: setExpiryTime
+            type: Greenter\Ubl\Entity\CommonBasic\ExpiryTime
+        mimeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MimeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMimeCode
+                setter: setMimeCode
+            type: Greenter\Ubl\Entity\CommonBasic\MimeCode
+        formatCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FormatCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFormatCode
+                setter: setFormatCode
+            type: Greenter\Ubl\Entity\CommonBasic\FormatCode
+        encodingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EncodingCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEncodingCode
+                setter: setEncodingCode
+            type: Greenter\Ubl\Entity\CommonBasic\EncodingCode
+        characterSetCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CharacterSetCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCharacterSetCode
+                setter: setCharacterSetCode
+            type: Greenter\Ubl\Entity\CommonBasic\CharacterSetCode
+        fileName:
+            expose: true
+            access_type: public_method
+            serialized_name: FileName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFileName
+                setter: setFileName
+            type: Greenter\Ubl\Entity\CommonBasic\FileName
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>

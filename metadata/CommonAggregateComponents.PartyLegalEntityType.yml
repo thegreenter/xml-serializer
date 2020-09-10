@@ -1,0 +1,160 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PartyLegalEntityType:
+    properties:
+        registrationName:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationName
+                setter: setRegistrationName
+            type: Greenter\Ubl\Entity\CommonBasic\RegistrationName
+        companyID:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyID
+                setter: setCompanyID
+            type: Greenter\Ubl\Entity\CommonBasic\CompanyID
+        registrationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationDate
+                setter: setRegistrationDate
+            type: Greenter\Ubl\Entity\CommonBasic\RegistrationDate
+        registrationExpirationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationExpirationDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationExpirationDate
+                setter: setRegistrationExpirationDate
+            type: Greenter\Ubl\Entity\CommonBasic\RegistrationExpirationDate
+        companyLegalFormCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyLegalFormCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyLegalFormCode
+                setter: setCompanyLegalFormCode
+            type: Greenter\Ubl\Entity\CommonBasic\CompanyLegalFormCode
+        companyLegalForm:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyLegalForm
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyLegalForm
+                setter: setCompanyLegalForm
+            type: Greenter\Ubl\Entity\CommonBasic\CompanyLegalForm
+        soleProprietorshipIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SoleProprietorshipIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSoleProprietorshipIndicator
+                setter: setSoleProprietorshipIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\SoleProprietorshipIndicator
+        companyLiquidationStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyLiquidationStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyLiquidationStatusCode
+                setter: setCompanyLiquidationStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\CompanyLiquidationStatusCode
+        corporateStockAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateStockAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorporateStockAmount
+                setter: setCorporateStockAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CorporateStockAmount
+        fullyPaidSharesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FullyPaidSharesIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFullyPaidSharesIndicator
+                setter: setFullyPaidSharesIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\FullyPaidSharesIndicator
+        registrationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistrationAddress
+                setter: setRegistrationAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RegistrationAddress
+        corporateRegistrationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateRegistrationScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCorporateRegistrationScheme
+                setter: setCorporateRegistrationScheme
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CorporateRegistrationScheme
+        headOfficeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: HeadOfficeParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHeadOfficeParty
+                setter: setHeadOfficeParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\HeadOfficeParty
+        shareholderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareholderParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShareholderParty
+                setter: setShareholderParty
+            xml_list:
+                inline: true
+                entry_name: ShareholderParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ShareholderParty>

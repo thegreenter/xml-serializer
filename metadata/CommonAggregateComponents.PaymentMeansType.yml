@@ -1,0 +1,153 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PaymentMeansType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        paymentMeansCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansCode
+                setter: setPaymentMeansCode
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentMeansCode
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentDueDate
+        paymentChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentChannelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentChannelCode
+                setter: setPaymentChannelCode
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentChannelCode
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: Greenter\Ubl\Entity\CommonBasic\InstructionID
+        instructionNote:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionNote
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionNote
+                setter: setInstructionNote
+            xml_list:
+                inline: true
+                entry_name: InstructionNote
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\InstructionNote>
+        paymentID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentID
+                setter: setPaymentID
+            xml_list:
+                inline: true
+                entry_name: PaymentID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\PaymentID>
+        cardAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CardAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCardAccount
+                setter: setCardAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CardAccount
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PayerFinancialAccount
+        payeeFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeFinancialAccount
+                setter: setPayeeFinancialAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PayeeFinancialAccount
+        creditAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCreditAccount
+                setter: setCreditAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CreditAccount
+        paymentMandate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMandate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentMandate
+                setter: setPaymentMandate
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PaymentMandate
+        tradeFinancing:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeFinancing
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTradeFinancing
+                setter: setTradeFinancing
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TradeFinancing

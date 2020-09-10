@@ -1,0 +1,109 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ForecastRevisionLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        revisedForecastLineID:
+            expose: true
+            access_type: public_method
+            serialized_name: RevisedForecastLineID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRevisedForecastLineID
+                setter: setRevisedForecastLineID
+            type: Greenter\Ubl\Entity\CommonBasic\RevisedForecastLineID
+        sourceForecastIssueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceForecastIssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceForecastIssueDate
+                setter: setSourceForecastIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\SourceForecastIssueDate
+        sourceForecastIssueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceForecastIssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceForecastIssueTime
+                setter: setSourceForecastIssueTime
+            type: Greenter\Ubl\Entity\CommonBasic\SourceForecastIssueTime
+        adjustmentReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustmentReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdjustmentReasonCode
+                setter: setAdjustmentReasonCode
+            type: Greenter\Ubl\Entity\CommonBasic\AdjustmentReasonCode
+        forecastPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getForecastPeriod
+                setter: setForecastPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ForecastPeriod
+        salesItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSalesItem
+                setter: setSalesItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SalesItem

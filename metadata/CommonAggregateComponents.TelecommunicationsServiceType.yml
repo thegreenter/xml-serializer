@@ -1,0 +1,253 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TelecommunicationsServiceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        callDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CallDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallDate
+                setter: setCallDate
+            type: Greenter\Ubl\Entity\CommonBasic\CallDate
+        callTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CallTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallTime
+                setter: setCallTime
+            type: Greenter\Ubl\Entity\CommonBasic\CallTime
+        serviceNumberCalled:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceNumberCalled
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getServiceNumberCalled
+                setter: setServiceNumberCalled
+            type: Greenter\Ubl\Entity\CommonBasic\ServiceNumberCalled
+        telecommunicationsServiceCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCategory
+                setter: setTelecommunicationsServiceCategory
+            type: Greenter\Ubl\Entity\CommonBasic\TelecommunicationsServiceCategory
+        telecommunicationsServiceCategoryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCategoryCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCategoryCode
+                setter: setTelecommunicationsServiceCategoryCode
+            type: Greenter\Ubl\Entity\CommonBasic\TelecommunicationsServiceCategoryCode
+        movieTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: MovieTitle
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMovieTitle
+                setter: setMovieTitle
+            type: Greenter\Ubl\Entity\CommonBasic\MovieTitle
+        roamingPartnerName:
+            expose: true
+            access_type: public_method
+            serialized_name: RoamingPartnerName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoamingPartnerName
+                setter: setRoamingPartnerName
+            type: Greenter\Ubl\Entity\CommonBasic\RoamingPartnerName
+        payPerView:
+            expose: true
+            access_type: public_method
+            serialized_name: PayPerView
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayPerView
+                setter: setPayPerView
+            type: Greenter\Ubl\Entity\CommonBasic\PayPerView
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\Quantity
+        telecommunicationsServiceCall:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCall
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCall
+                setter: setTelecommunicationsServiceCall
+            type: Greenter\Ubl\Entity\CommonBasic\TelecommunicationsServiceCall
+        telecommunicationsServiceCallCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationsServiceCallCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelecommunicationsServiceCallCode
+                setter: setTelecommunicationsServiceCallCode
+            type: Greenter\Ubl\Entity\CommonBasic\TelecommunicationsServiceCallCode
+        callBaseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CallBaseAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallBaseAmount
+                setter: setCallBaseAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CallBaseAmount
+        callExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CallExtensionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCallExtensionAmount
+                setter: setCallExtensionAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CallExtensionAmount
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Price
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Country
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            xml_list:
+                inline: true
+                entry_name: ExchangeRate
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ExchangeRate>
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AllowanceCharge>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TaxTotal>
+        callDuty:
+            expose: true
+            access_type: public_method
+            serialized_name: CallDuty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCallDuty
+                setter: setCallDuty
+            xml_list:
+                inline: true
+                entry_name: CallDuty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\CallDuty>
+        timeDuty:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeDuty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTimeDuty
+                setter: setTimeDuty
+            xml_list:
+                inline: true
+                entry_name: TimeDuty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TimeDuty>

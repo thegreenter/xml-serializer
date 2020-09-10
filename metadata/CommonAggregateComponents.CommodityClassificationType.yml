@@ -1,0 +1,46 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\CommodityClassificationType:
+    properties:
+        natureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NatureCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNatureCode
+                setter: setNatureCode
+            type: Greenter\Ubl\Entity\CommonBasic\NatureCode
+        cargoTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CargoTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCargoTypeCode
+                setter: setCargoTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\CargoTypeCode
+        commodityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CommodityCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCommodityCode
+                setter: setCommodityCode
+            type: Greenter\Ubl\Entity\CommonBasic\CommodityCode
+        itemClassificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemClassificationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getItemClassificationCode
+                setter: setItemClassificationCode
+            type: Greenter\Ubl\Entity\CommonBasic\ItemClassificationCode

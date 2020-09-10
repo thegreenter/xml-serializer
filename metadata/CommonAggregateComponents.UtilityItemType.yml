@@ -1,0 +1,171 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\UtilityItemType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        subscriberID:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberID
+                setter: setSubscriberID
+            type: Greenter\Ubl\Entity\CommonBasic\SubscriberID
+        subscriberType:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberType
+                setter: setSubscriberType
+            type: Greenter\Ubl\Entity\CommonBasic\SubscriberType
+        subscriberTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberTypeCode
+                setter: setSubscriberTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\SubscriberTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        packQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PackQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackQuantity
+                setter: setPackQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\PackQuantity
+        packSizeNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: PackSizeNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackSizeNumeric
+                setter: setPackSizeNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\PackSizeNumeric
+        consumptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionType
+                setter: setConsumptionType
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionType
+        consumptionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionTypeCode
+                setter: setConsumptionTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionTypeCode
+        currentChargeType:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentChargeType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrentChargeType
+                setter: setCurrentChargeType
+            type: Greenter\Ubl\Entity\CommonBasic\CurrentChargeType
+        currentChargeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentChargeTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrentChargeTypeCode
+                setter: setCurrentChargeTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\CurrentChargeTypeCode
+        oneTimeChargeType:
+            expose: true
+            access_type: public_method
+            serialized_name: OneTimeChargeType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOneTimeChargeType
+                setter: setOneTimeChargeType
+            type: Greenter\Ubl\Entity\CommonBasic\OneTimeChargeType
+        oneTimeChargeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OneTimeChargeTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOneTimeChargeTypeCode
+                setter: setOneTimeChargeTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\OneTimeChargeTypeCode
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TaxCategory
+        contract:
+            expose: true
+            access_type: public_method
+            serialized_name: Contract
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContract
+                setter: setContract
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Contract

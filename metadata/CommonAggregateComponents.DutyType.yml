@@ -1,0 +1,46 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DutyType:
+    properties:
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: Greenter\Ubl\Entity\CommonBasic\Amount
+        duty:
+            expose: true
+            access_type: public_method
+            serialized_name: Duty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDuty
+                setter: setDuty
+            type: Greenter\Ubl\Entity\CommonBasic\Duty
+        dutyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DutyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDutyCode
+                setter: setDutyCode
+            type: Greenter\Ubl\Entity\CommonBasic\DutyCode
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TaxCategory

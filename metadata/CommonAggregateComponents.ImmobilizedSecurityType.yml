@@ -1,0 +1,79 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ImmobilizedSecurityType:
+    properties:
+        immobilizationCertificateID:
+            expose: true
+            access_type: public_method
+            serialized_name: ImmobilizationCertificateID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getImmobilizationCertificateID
+                setter: setImmobilizationCertificateID
+            type: Greenter\Ubl\Entity\CommonBasic\ImmobilizationCertificateID
+        securityID:
+            expose: true
+            access_type: public_method
+            serialized_name: SecurityID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSecurityID
+                setter: setSecurityID
+            type: Greenter\Ubl\Entity\CommonBasic\SecurityID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\IssueDate
+        faceValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FaceValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFaceValueAmount
+                setter: setFaceValueAmount
+            type: Greenter\Ubl\Entity\CommonBasic\FaceValueAmount
+        marketValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MarketValueAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarketValueAmount
+                setter: setMarketValueAmount
+            type: Greenter\Ubl\Entity\CommonBasic\MarketValueAmount
+        sharesNumberQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: SharesNumberQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSharesNumberQuantity
+                setter: setSharesNumberQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\SharesNumberQuantity
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\IssuerParty

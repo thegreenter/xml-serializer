@@ -1,0 +1,187 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PackageType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\Quantity
+        returnableMaterialIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnableMaterialIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReturnableMaterialIndicator
+                setter: setReturnableMaterialIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\ReturnableMaterialIndicator
+        packageLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageLevelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackageLevelCode
+                setter: setPackageLevelCode
+            type: Greenter\Ubl\Entity\CommonBasic\PackageLevelCode
+        packagingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackagingTypeCode
+                setter: setPackagingTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\PackagingTypeCode
+        packingMaterial:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingMaterial
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackingMaterial
+                setter: setPackingMaterial
+            xml_list:
+                inline: true
+                entry_name: PackingMaterial
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\PackingMaterial>
+        traceID:
+            expose: true
+            access_type: public_method
+            serialized_name: TraceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTraceID
+                setter: setTraceID
+            type: Greenter\Ubl\Entity\CommonBasic\TraceID
+        containedPackage:
+            expose: true
+            access_type: public_method
+            serialized_name: ContainedPackage
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContainedPackage
+                setter: setContainedPackage
+            xml_list:
+                inline: true
+                entry_name: ContainedPackage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ContainedPackage>
+        containingTransportEquipment:
+            expose: true
+            access_type: public_method
+            serialized_name: ContainingTransportEquipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContainingTransportEquipment
+                setter: setContainingTransportEquipment
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ContainingTransportEquipment
+        goodsItem:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGoodsItem
+                setter: setGoodsItem
+            xml_list:
+                inline: true
+                entry_name: GoodsItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\GoodsItem>
+        measurementDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementDimension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementDimension
+                setter: setMeasurementDimension
+            xml_list:
+                inline: true
+                entry_name: MeasurementDimension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\MeasurementDimension>
+        deliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryUnit
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryUnit
+                setter: setDeliveryUnit
+            xml_list:
+                inline: true
+                entry_name: DeliveryUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryUnit>
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: Delivery
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Delivery
+        pickup:
+            expose: true
+            access_type: public_method
+            serialized_name: Pickup
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPickup
+                setter: setPickup
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Pickup
+        despatch:
+            expose: true
+            access_type: public_method
+            serialized_name: Despatch
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatch
+                setter: setDespatch
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Despatch

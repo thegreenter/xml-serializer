@@ -1,0 +1,87 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\CompletedTaskType:
+    properties:
+        annualAverageAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: AnnualAverageAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAnnualAverageAmount
+                setter: setAnnualAverageAmount
+            type: Greenter\Ubl\Entity\CommonBasic\AnnualAverageAmount
+        totalTaskAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTaskAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalTaskAmount
+                setter: setTotalTaskAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TotalTaskAmount
+        partyCapacityAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyCapacityAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPartyCapacityAmount
+                setter: setPartyCapacityAmount
+            type: Greenter\Ubl\Entity\CommonBasic\PartyCapacityAmount
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        evidenceSupplied:
+            expose: true
+            access_type: public_method
+            serialized_name: EvidenceSupplied
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEvidenceSupplied
+                setter: setEvidenceSupplied
+            xml_list:
+                inline: true
+                entry_name: EvidenceSupplied
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\EvidenceSupplied>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Period
+        recipientCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRecipientCustomerParty
+                setter: setRecipientCustomerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RecipientCustomerParty

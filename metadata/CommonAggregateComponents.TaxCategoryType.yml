@@ -1,0 +1,116 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TaxCategoryType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: Greenter\Ubl\Entity\CommonBasic\Percent
+        baseUnitMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseUnitMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseUnitMeasure
+                setter: setBaseUnitMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\BaseUnitMeasure
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: Greenter\Ubl\Entity\CommonBasic\PerUnitAmount
+        taxExemptionReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReasonCode
+                setter: setTaxExemptionReasonCode
+            type: Greenter\Ubl\Entity\CommonBasic\TaxExemptionReasonCode
+        taxExemptionReason:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReason
+                setter: setTaxExemptionReason
+            xml_list:
+                inline: true
+                entry_name: TaxExemptionReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\TaxExemptionReason>
+        tierRange:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRange
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRange
+                setter: setTierRange
+            type: Greenter\Ubl\Entity\CommonBasic\TierRange
+        tierRatePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRatePercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRatePercent
+                setter: setTierRatePercent
+            type: Greenter\Ubl\Entity\CommonBasic\TierRatePercent
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TaxScheme

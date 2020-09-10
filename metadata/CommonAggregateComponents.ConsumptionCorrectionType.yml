@@ -1,0 +1,138 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ConsumptionCorrectionType:
+    properties:
+        correctionType:
+            expose: true
+            access_type: public_method
+            serialized_name: CorrectionType
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorrectionType
+                setter: setCorrectionType
+            type: Greenter\Ubl\Entity\CommonBasic\CorrectionType
+        correctionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CorrectionTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorrectionTypeCode
+                setter: setCorrectionTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\CorrectionTypeCode
+        meterNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: MeterNumber
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMeterNumber
+                setter: setMeterNumber
+            type: Greenter\Ubl\Entity\CommonBasic\MeterNumber
+        gasPressureQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: GasPressureQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGasPressureQuantity
+                setter: setGasPressureQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\GasPressureQuantity
+        actualTemperatureReductionQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualTemperatureReductionQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualTemperatureReductionQuantity
+                setter: setActualTemperatureReductionQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ActualTemperatureReductionQuantity
+        normalTemperatureReductionQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: NormalTemperatureReductionQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNormalTemperatureReductionQuantity
+                setter: setNormalTemperatureReductionQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\NormalTemperatureReductionQuantity
+        differenceTemperatureReductionQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: DifferenceTemperatureReductionQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDifferenceTemperatureReductionQuantity
+                setter: setDifferenceTemperatureReductionQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\DifferenceTemperatureReductionQuantity
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        correctionUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CorrectionUnitAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorrectionUnitAmount
+                setter: setCorrectionUnitAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CorrectionUnitAmount
+        consumptionEnergyQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionEnergyQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionEnergyQuantity
+                setter: setConsumptionEnergyQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionEnergyQuantity
+        consumptionWaterQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionWaterQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionWaterQuantity
+                setter: setConsumptionWaterQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumptionWaterQuantity
+        correctionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CorrectionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCorrectionAmount
+                setter: setCorrectionAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CorrectionAmount

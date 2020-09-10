@@ -1,0 +1,24 @@
+Greenter\Ubl\Entity\Dsig\KeyValueType:
+    properties:
+        dSAKeyValue:
+            expose: true
+            access_type: public_method
+            serialized_name: DSAKeyValue
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getDSAKeyValue
+                setter: setDSAKeyValue
+            type: Greenter\Ubl\Entity\Dsig\DSAKeyValue
+        rSAKeyValue:
+            expose: true
+            access_type: public_method
+            serialized_name: RSAKeyValue
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getRSAKeyValue
+                setter: setRSAKeyValue
+            type: Greenter\Ubl\Entity\Dsig\RSAKeyValue

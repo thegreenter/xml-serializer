@@ -1,0 +1,33 @@
+Greenter\Ubl\Entity\Etsi\UnsignedPropertiesType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        unsignedSignatureProperties:
+            expose: true
+            access_type: public_method
+            serialized_name: UnsignedSignatureProperties
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getUnsignedSignatureProperties
+                setter: setUnsignedSignatureProperties
+            type: Greenter\Ubl\Entity\Etsi\UnsignedSignaturePropertiesType
+        unsignedDataObjectProperties:
+            expose: true
+            access_type: public_method
+            serialized_name: UnsignedDataObjectProperties
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getUnsignedDataObjectProperties
+                setter: setUnsignedDataObjectProperties
+            type: Greenter\Ubl\Entity\Etsi\UnsignedDataObjectPropertiesType

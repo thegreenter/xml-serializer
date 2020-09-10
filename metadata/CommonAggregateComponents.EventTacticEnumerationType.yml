@@ -1,0 +1,46 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\EventTacticEnumerationType:
+    properties:
+        consumerIncentiveTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerIncentiveTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumerIncentiveTacticTypeCode
+                setter: setConsumerIncentiveTacticTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ConsumerIncentiveTacticTypeCode
+        displayTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DisplayTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDisplayTacticTypeCode
+                setter: setDisplayTacticTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\DisplayTacticTypeCode
+        featureTacticTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureTacticTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFeatureTacticTypeCode
+                setter: setFeatureTacticTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\FeatureTacticTypeCode
+        tradeItemPackingLabelingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TradeItemPackingLabelingTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradeItemPackingLabelingTypeCode
+                setter: setTradeItemPackingLabelingTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\TradeItemPackingLabelingTypeCode

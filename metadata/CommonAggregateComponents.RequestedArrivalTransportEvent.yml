@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\RequestedArrivalTransportEvent:
+    xml_root_name: RequestedArrivalTransportEvent
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

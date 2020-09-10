@@ -1,0 +1,116 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\SignatureType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        validationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidationDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidationDate
+                setter: setValidationDate
+            type: Greenter\Ubl\Entity\CommonBasic\ValidationDate
+        validationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidationTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidationTime
+                setter: setValidationTime
+            type: Greenter\Ubl\Entity\CommonBasic\ValidationTime
+        validatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidatorID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidatorID
+                setter: setValidatorID
+            type: Greenter\Ubl\Entity\CommonBasic\ValidatorID
+        canonicalizationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: CanonicalizationMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCanonicalizationMethod
+                setter: setCanonicalizationMethod
+            type: Greenter\Ubl\Entity\CommonBasic\CanonicalizationMethod
+        signatureMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSignatureMethod
+                setter: setSignatureMethod
+            type: Greenter\Ubl\Entity\CommonBasic\SignatureMethod
+        signatoryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryParty
+                setter: setSignatoryParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SignatoryParty
+        digitalSignatureAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: DigitalSignatureAttachment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDigitalSignatureAttachment
+                setter: setDigitalSignatureAttachment
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DigitalSignatureAttachment
+        originalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDocumentReference
+                setter: setOriginalDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\OriginalDocumentReference

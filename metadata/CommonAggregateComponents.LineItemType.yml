@@ -1,0 +1,386 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\LineItemType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        salesOrderID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderID
+                setter: setSalesOrderID
+            type: Greenter\Ubl\Entity\CommonBasic\SalesOrderID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        lineStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LineStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineStatusCode
+                setter: setLineStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\LineStatusCode
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\Quantity
+        lineExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LineExtensionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineExtensionAmount
+                setter: setLineExtensionAmount
+            type: Greenter\Ubl\Entity\CommonBasic\LineExtensionAmount
+        totalTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalTaxAmount
+                setter: setTotalTaxAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TotalTaxAmount
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MinimumQuantity
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumQuantity
+        minimumBackorderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumBackorderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumBackorderQuantity
+                setter: setMinimumBackorderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MinimumBackorderQuantity
+        maximumBackorderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumBackorderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumBackorderQuantity
+                setter: setMaximumBackorderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumBackorderQuantity
+        inspectionMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InspectionMethodCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInspectionMethodCode
+                setter: setInspectionMethodCode
+            type: Greenter\Ubl\Entity\CommonBasic\InspectionMethodCode
+        partialDeliveryIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PartialDeliveryIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPartialDeliveryIndicator
+                setter: setPartialDeliveryIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\PartialDeliveryIndicator
+        backOrderAllowedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: BackOrderAllowedIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBackOrderAllowedIndicator
+                setter: setBackOrderAllowedIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\BackOrderAllowedIndicator
+        accountingCostCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCostCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCostCode
+                setter: setAccountingCostCode
+            type: Greenter\Ubl\Entity\CommonBasic\AccountingCostCode
+        accountingCost:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCost
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCost
+                setter: setAccountingCost
+            type: Greenter\Ubl\Entity\CommonBasic\AccountingCost
+        warrantyInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: WarrantyInformation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWarrantyInformation
+                setter: setWarrantyInformation
+            xml_list:
+                inline: true
+                entry_name: WarrantyInformation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\WarrantyInformation>
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: Delivery
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            xml_list:
+                inline: true
+                entry_name: Delivery
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Delivery>
+        deliveryTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryTerms
+                setter: setDeliveryTerms
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryTerms
+        originatorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginatorParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginatorParty
+                setter: setOriginatorParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\OriginatorParty
+        orderedShipment:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderedShipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderedShipment
+                setter: setOrderedShipment
+            xml_list:
+                inline: true
+                entry_name: OrderedShipment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\OrderedShipment>
+        pricingReference:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPricingReference
+                setter: setPricingReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PricingReference
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AllowanceCharge>
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Price
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Item
+        subLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SubLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubLineItem
+                setter: setSubLineItem
+            xml_list:
+                inline: true
+                entry_name: SubLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SubLineItem>
+        warrantyValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: WarrantyValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWarrantyValidityPeriod
+                setter: setWarrantyValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\WarrantyValidityPeriod
+        warrantyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: WarrantyParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWarrantyParty
+                setter: setWarrantyParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\WarrantyParty
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TaxTotal>
+        itemPriceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPriceExtension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPriceExtension
+                setter: setItemPriceExtension
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ItemPriceExtension
+        lineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineReference
+                setter: setLineReference
+            xml_list:
+                inline: true
+                entry_name: LineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\LineReference>

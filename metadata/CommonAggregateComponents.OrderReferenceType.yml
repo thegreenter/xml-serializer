@@ -1,0 +1,101 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\OrderReferenceType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        salesOrderID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderID
+                setter: setSalesOrderID
+            type: Greenter\Ubl\Entity\CommonBasic\SalesOrderID
+        copyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyIndicator
+                setter: setCopyIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\CopyIndicator
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\IssueDate
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: Greenter\Ubl\Entity\CommonBasic\IssueTime
+        customerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomerReference
+                setter: setCustomerReference
+            type: Greenter\Ubl\Entity\CommonBasic\CustomerReference
+        orderTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrderTypeCode
+                setter: setOrderTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\OrderTypeCode
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference

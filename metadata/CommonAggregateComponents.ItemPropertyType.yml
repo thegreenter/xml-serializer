@@ -1,0 +1,157 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ItemPropertyType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        nameCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NameCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameCode
+                setter: setNameCode
+            type: Greenter\Ubl\Entity\CommonBasic\NameCode
+        testMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: TestMethod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTestMethod
+                setter: setTestMethod
+            type: Greenter\Ubl\Entity\CommonBasic\TestMethod
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: Greenter\Ubl\Entity\CommonBasic\Value
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\ValueQuantity
+        valueQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ValueQualifier
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValueQualifier
+                setter: setValueQualifier
+            xml_list:
+                inline: true
+                entry_name: ValueQualifier
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\ValueQualifier>
+        importanceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ImportanceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getImportanceCode
+                setter: setImportanceCode
+            type: Greenter\Ubl\Entity\CommonBasic\ImportanceCode
+        listValue:
+            expose: true
+            access_type: public_method
+            serialized_name: ListValue
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getListValue
+                setter: setListValue
+            xml_list:
+                inline: true
+                entry_name: ListValue
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\ListValue>
+        usabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: UsabilityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUsabilityPeriod
+                setter: setUsabilityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\UsabilityPeriod
+        itemPropertyGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyGroup
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyGroup
+                setter: setItemPropertyGroup
+            xml_list:
+                inline: true
+                entry_name: ItemPropertyGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ItemPropertyGroup>
+        rangeDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeDimension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRangeDimension
+                setter: setRangeDimension
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RangeDimension
+        itemPropertyRange:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyRange
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyRange
+                setter: setItemPropertyRange
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ItemPropertyRange

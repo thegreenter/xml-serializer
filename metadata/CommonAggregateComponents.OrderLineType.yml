@@ -1,0 +1,136 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\OrderLineType:
+    properties:
+        substitutionStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubstitutionStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubstitutionStatusCode
+                setter: setSubstitutionStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\SubstitutionStatusCode
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        lineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: LineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineItem
+                setter: setLineItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\LineItem
+        sellerProposedSubstituteLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerProposedSubstituteLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerProposedSubstituteLineItem
+                setter: setSellerProposedSubstituteLineItem
+            xml_list:
+                inline: true
+                entry_name: SellerProposedSubstituteLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SellerProposedSubstituteLineItem>
+        sellerSubstitutedLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSubstitutedLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSubstitutedLineItem
+                setter: setSellerSubstitutedLineItem
+            xml_list:
+                inline: true
+                entry_name: SellerSubstitutedLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SellerSubstitutedLineItem>
+        buyerProposedSubstituteLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerProposedSubstituteLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerProposedSubstituteLineItem
+                setter: setBuyerProposedSubstituteLineItem
+            xml_list:
+                inline: true
+                entry_name: BuyerProposedSubstituteLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\BuyerProposedSubstituteLineItem>
+        catalogueLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CatalogueLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCatalogueLineReference
+                setter: setCatalogueLineReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CatalogueLineReference
+        quotationLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: QuotationLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getQuotationLineReference
+                setter: setQuotationLineReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\QuotationLineReference
+        orderLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderLineReference
+                setter: setOrderLineReference
+            xml_list:
+                inline: true
+                entry_name: OrderLineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\OrderLineReference>
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference>

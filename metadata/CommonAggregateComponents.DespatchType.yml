@@ -1,0 +1,219 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DespatchType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        requestedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchDate
+                setter: setRequestedDespatchDate
+            type: Greenter\Ubl\Entity\CommonBasic\RequestedDespatchDate
+        requestedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchTime
+                setter: setRequestedDespatchTime
+            type: Greenter\Ubl\Entity\CommonBasic\RequestedDespatchTime
+        estimatedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchDate
+                setter: setEstimatedDespatchDate
+            type: Greenter\Ubl\Entity\CommonBasic\EstimatedDespatchDate
+        estimatedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchTime
+                setter: setEstimatedDespatchTime
+            type: Greenter\Ubl\Entity\CommonBasic\EstimatedDespatchTime
+        actualDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchDate
+                setter: setActualDespatchDate
+            type: Greenter\Ubl\Entity\CommonBasic\ActualDespatchDate
+        actualDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchTime
+                setter: setActualDespatchTime
+            type: Greenter\Ubl\Entity\CommonBasic\ActualDespatchTime
+        guaranteedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteedDespatchDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGuaranteedDespatchDate
+                setter: setGuaranteedDespatchDate
+            type: Greenter\Ubl\Entity\CommonBasic\GuaranteedDespatchDate
+        guaranteedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteedDespatchTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGuaranteedDespatchTime
+                setter: setGuaranteedDespatchTime
+            type: Greenter\Ubl\Entity\CommonBasic\GuaranteedDespatchTime
+        releaseID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReleaseID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReleaseID
+                setter: setReleaseID
+            type: Greenter\Ubl\Entity\CommonBasic\ReleaseID
+        instructions:
+            expose: true
+            access_type: public_method
+            serialized_name: Instructions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructions
+                setter: setInstructions
+            xml_list:
+                inline: true
+                entry_name: Instructions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Instructions>
+        despatchAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchAddress
+                setter: setDespatchAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DespatchAddress
+        despatchLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchLocation
+                setter: setDespatchLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DespatchLocation
+        despatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchParty
+                setter: setDespatchParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DespatchParty
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CarrierParty
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            xml_list:
+                inline: true
+                entry_name: NotifyParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\NotifyParty>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Contact
+        estimatedDespatchPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDespatchPeriod
+                setter: setEstimatedDespatchPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EstimatedDespatchPeriod
+        requestedDespatchPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedDespatchPeriod
+                setter: setRequestedDespatchPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RequestedDespatchPeriod

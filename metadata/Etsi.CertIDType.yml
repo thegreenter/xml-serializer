@@ -1,0 +1,33 @@
+Greenter\Ubl\Entity\Etsi\CertIDType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            accessor:
+                getter: getURI
+                setter: setURI
+            xml_attribute: true
+            type: string
+        certDigest:
+            expose: true
+            access_type: public_method
+            serialized_name: CertDigest
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCertDigest
+                setter: setCertDigest
+            type: Greenter\Ubl\Entity\Etsi\DigestAlgAndValueType
+        issuerSerial:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerSerial
+            xml_element:
+                cdata: false
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getIssuerSerial
+                setter: setIssuerSerial
+            type: Greenter\Ubl\Entity\Dsig\X509IssuerSerialType

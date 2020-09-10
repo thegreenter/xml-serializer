@@ -1,0 +1,24 @@
+Greenter\Ubl\Entity\Dsig\PGPDataType:
+    properties:
+        pGPKeyID:
+            expose: true
+            access_type: public_method
+            serialized_name: PGPKeyID
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getPGPKeyID
+                setter: setPGPKeyID
+            type: \AnySimpleType
+        pGPKeyPacket:
+            expose: true
+            access_type: public_method
+            serialized_name: PGPKeyPacket
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getPGPKeyPacket
+                setter: setPGPKeyPacket
+            type: \AnySimpleType

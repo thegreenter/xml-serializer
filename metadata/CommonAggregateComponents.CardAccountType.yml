@@ -1,0 +1,123 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\CardAccountType:
+    properties:
+        primaryAccountNumberID:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryAccountNumberID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrimaryAccountNumberID
+                setter: setPrimaryAccountNumberID
+            type: Greenter\Ubl\Entity\CommonBasic\PrimaryAccountNumberID
+        networkID:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetworkID
+                setter: setNetworkID
+            type: Greenter\Ubl\Entity\CommonBasic\NetworkID
+        cardTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CardTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCardTypeCode
+                setter: setCardTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\CardTypeCode
+        validityStartDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityStartDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidityStartDate
+                setter: setValidityStartDate
+            type: Greenter\Ubl\Entity\CommonBasic\ValidityStartDate
+        expiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryDate
+                setter: setExpiryDate
+            type: Greenter\Ubl\Entity\CommonBasic\ExpiryDate
+        issuerID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssuerID
+                setter: setIssuerID
+            type: Greenter\Ubl\Entity\CommonBasic\IssuerID
+        issueNumberID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueNumberID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueNumberID
+                setter: setIssueNumberID
+            type: Greenter\Ubl\Entity\CommonBasic\IssueNumberID
+        cV2ID:
+            expose: true
+            access_type: public_method
+            serialized_name: CV2ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCV2ID
+                setter: setCV2ID
+            type: Greenter\Ubl\Entity\CommonBasic\CV2ID
+        cardChipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CardChipCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCardChipCode
+                setter: setCardChipCode
+            type: Greenter\Ubl\Entity\CommonBasic\CardChipCode
+        chipApplicationID:
+            expose: true
+            access_type: public_method
+            serialized_name: ChipApplicationID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChipApplicationID
+                setter: setChipApplicationID
+            type: Greenter\Ubl\Entity\CommonBasic\ChipApplicationID
+        holderName:
+            expose: true
+            access_type: public_method
+            serialized_name: HolderName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHolderName
+                setter: setHolderName
+            type: Greenter\Ubl\Entity\CommonBasic\HolderName

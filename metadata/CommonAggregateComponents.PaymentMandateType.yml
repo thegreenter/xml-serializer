@@ -1,0 +1,116 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PaymentMandateType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        mandateTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MandateTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMandateTypeCode
+                setter: setMandateTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\MandateTypeCode
+        maximumPaymentInstructionsNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaymentInstructionsNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaymentInstructionsNumeric
+                setter: setMaximumPaymentInstructionsNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumPaymentInstructionsNumeric
+        maximumPaidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaidAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaidAmount
+                setter: setMaximumPaidAmount
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumPaidAmount
+        signatureID:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSignatureID
+                setter: setSignatureID
+            type: Greenter\Ubl\Entity\CommonBasic\SignatureID
+        payerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerParty
+                setter: setPayerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PayerParty
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PayerFinancialAccount
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ValidityPeriod
+        paymentReversalPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentReversalPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentReversalPeriod
+                setter: setPaymentReversalPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PaymentReversalPeriod
+        clause:
+            expose: true
+            access_type: public_method
+            serialized_name: Clause
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getClause
+                setter: setClause
+            xml_list:
+                inline: true
+                entry_name: Clause
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Clause>

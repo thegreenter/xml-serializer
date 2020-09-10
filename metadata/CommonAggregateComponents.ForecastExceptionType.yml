@@ -1,0 +1,90 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ForecastExceptionType:
+    properties:
+        forecastPurposeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastPurposeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastPurposeCode
+                setter: setForecastPurposeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ForecastPurposeCode
+        forecastTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastTypeCode
+                setter: setForecastTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ForecastTypeCode
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\IssueDate
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: Greenter\Ubl\Entity\CommonBasic\IssueTime
+        dataSourceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DataSourceCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDataSourceCode
+                setter: setDataSourceCode
+            type: Greenter\Ubl\Entity\CommonBasic\DataSourceCode
+        comparisonDataCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparisonDataCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparisonDataCode
+                setter: setComparisonDataCode
+            type: Greenter\Ubl\Entity\CommonBasic\ComparisonDataCode
+        comparisonForecastIssueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparisonForecastIssueTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparisonForecastIssueTime
+                setter: setComparisonForecastIssueTime
+            type: Greenter\Ubl\Entity\CommonBasic\ComparisonForecastIssueTime
+        comparisonForecastIssueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparisonForecastIssueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparisonForecastIssueDate
+                setter: setComparisonForecastIssueDate
+            type: Greenter\Ubl\Entity\CommonBasic\ComparisonForecastIssueDate

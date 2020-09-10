@@ -1,0 +1,139 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\QuotationLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\Quantity
+        lineExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LineExtensionAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineExtensionAmount
+                setter: setLineExtensionAmount
+            type: Greenter\Ubl\Entity\CommonBasic\LineExtensionAmount
+        totalTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalTaxAmount
+                setter: setTotalTaxAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TotalTaxAmount
+        requestForQuotationLineID:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestForQuotationLineID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestForQuotationLineID
+                setter: setRequestForQuotationLineID
+            type: Greenter\Ubl\Entity\CommonBasic\RequestForQuotationLineID
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference>
+        lineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: LineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineItem
+                setter: setLineItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\LineItem
+        sellerProposedSubstituteLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerProposedSubstituteLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerProposedSubstituteLineItem
+                setter: setSellerProposedSubstituteLineItem
+            xml_list:
+                inline: true
+                entry_name: SellerProposedSubstituteLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SellerProposedSubstituteLineItem>
+        alternativeLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeLineItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAlternativeLineItem
+                setter: setAlternativeLineItem
+            xml_list:
+                inline: true
+                entry_name: AlternativeLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AlternativeLineItem>
+        requestLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestLineReference
+                setter: setRequestLineReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RequestLineReference

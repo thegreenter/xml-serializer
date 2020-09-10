@@ -1,0 +1,154 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ItemLocationQuantityType:
+    properties:
+        leadTimeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LeadTimeMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLeadTimeMeasure
+                setter: setLeadTimeMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\LeadTimeMeasure
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MinimumQuantity
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumQuantity
+        hazardousRiskIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRiskIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRiskIndicator
+                setter: setHazardousRiskIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\HazardousRiskIndicator
+        tradingRestrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: TradingRestrictions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradingRestrictions
+                setter: setTradingRestrictions
+            xml_list:
+                inline: true
+                entry_name: TradingRestrictions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\TradingRestrictions>
+        applicableTerritoryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableTerritoryAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableTerritoryAddress
+                setter: setApplicableTerritoryAddress
+            xml_list:
+                inline: true
+                entry_name: ApplicableTerritoryAddress
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ApplicableTerritoryAddress>
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Price
+        deliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryUnit
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryUnit
+                setter: setDeliveryUnit
+            xml_list:
+                inline: true
+                entry_name: DeliveryUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryUnit>
+        applicableTaxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableTaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableTaxCategory
+                setter: setApplicableTaxCategory
+            xml_list:
+                inline: true
+                entry_name: ApplicableTaxCategory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ApplicableTaxCategory>
+        package:
+            expose: true
+            access_type: public_method
+            serialized_name: Package
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPackage
+                setter: setPackage
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Package
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AllowanceCharge>
+        dependentPriceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DependentPriceReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDependentPriceReference
+                setter: setDependentPriceReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DependentPriceReference

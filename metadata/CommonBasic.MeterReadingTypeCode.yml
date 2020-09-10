@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonBasic\MeterReadingTypeCode:
+    xml_root_name: MeterReadingTypeCode
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

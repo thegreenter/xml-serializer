@@ -1,0 +1,228 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ProcurementProjectType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            xml_list:
+                inline: true
+                entry_name: Name
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Name>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        procurementTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProcurementTypeCode
+                setter: setProcurementTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ProcurementTypeCode
+        procurementSubTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementSubTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProcurementSubTypeCode
+                setter: setProcurementSubTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\ProcurementSubTypeCode
+        qualityControlCode:
+            expose: true
+            access_type: public_method
+            serialized_name: QualityControlCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQualityControlCode
+                setter: setQualityControlCode
+            type: Greenter\Ubl\Entity\CommonBasic\QualityControlCode
+        requiredFeeAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredFeeAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequiredFeeAmount
+                setter: setRequiredFeeAmount
+            type: Greenter\Ubl\Entity\CommonBasic\RequiredFeeAmount
+        feeDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFeeDescription
+                setter: setFeeDescription
+            xml_list:
+                inline: true
+                entry_name: FeeDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\FeeDescription>
+        requestedDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDeliveryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDeliveryDate
+                setter: setRequestedDeliveryDate
+            type: Greenter\Ubl\Entity\CommonBasic\RequestedDeliveryDate
+        estimatedOverallContractQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedOverallContractQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedOverallContractQuantity
+                setter: setEstimatedOverallContractQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\EstimatedOverallContractQuantity
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        requestedTenderTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedTenderTotal
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedTenderTotal
+                setter: setRequestedTenderTotal
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RequestedTenderTotal
+        mainCommodityClassification:
+            expose: true
+            access_type: public_method
+            serialized_name: MainCommodityClassification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMainCommodityClassification
+                setter: setMainCommodityClassification
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MainCommodityClassification
+        additionalCommodityClassification:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalCommodityClassification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalCommodityClassification
+                setter: setAdditionalCommodityClassification
+            xml_list:
+                inline: true
+                entry_name: AdditionalCommodityClassification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AdditionalCommodityClassification>
+        realizedLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: RealizedLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRealizedLocation
+                setter: setRealizedLocation
+            xml_list:
+                inline: true
+                entry_name: RealizedLocation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\RealizedLocation>
+        plannedPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PlannedPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPlannedPeriod
+                setter: setPlannedPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PlannedPeriod
+        contractExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractExtension
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractExtension
+                setter: setContractExtension
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ContractExtension
+        requestForTenderLine:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestForTenderLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestForTenderLine
+                setter: setRequestForTenderLine
+            xml_list:
+                inline: true
+                entry_name: RequestForTenderLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\RequestForTenderLine>

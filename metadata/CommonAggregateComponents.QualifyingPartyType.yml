@@ -1,0 +1,176 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\QualifyingPartyType:
+    properties:
+        participationPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipationPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getParticipationPercent
+                setter: setParticipationPercent
+            type: Greenter\Ubl\Entity\CommonBasic\ParticipationPercent
+        personalSituation:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonalSituation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPersonalSituation
+                setter: setPersonalSituation
+            xml_list:
+                inline: true
+                entry_name: PersonalSituation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\PersonalSituation>
+        operatingYearsQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatingYearsQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOperatingYearsQuantity
+                setter: setOperatingYearsQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\OperatingYearsQuantity
+        employeeQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: EmployeeQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEmployeeQuantity
+                setter: setEmployeeQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\EmployeeQuantity
+        businessClassificationEvidenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BusinessClassificationEvidenceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBusinessClassificationEvidenceID
+                setter: setBusinessClassificationEvidenceID
+            type: Greenter\Ubl\Entity\CommonBasic\BusinessClassificationEvidenceID
+        businessIdentityEvidenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BusinessIdentityEvidenceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBusinessIdentityEvidenceID
+                setter: setBusinessIdentityEvidenceID
+            type: Greenter\Ubl\Entity\CommonBasic\BusinessIdentityEvidenceID
+        tendererRoleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TendererRoleCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTendererRoleCode
+                setter: setTendererRoleCode
+            type: Greenter\Ubl\Entity\CommonBasic\TendererRoleCode
+        businessClassificationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: BusinessClassificationScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBusinessClassificationScheme
+                setter: setBusinessClassificationScheme
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\BusinessClassificationScheme
+        technicalCapability:
+            expose: true
+            access_type: public_method
+            serialized_name: TechnicalCapability
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTechnicalCapability
+                setter: setTechnicalCapability
+            xml_list:
+                inline: true
+                entry_name: TechnicalCapability
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TechnicalCapability>
+        financialCapability:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialCapability
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialCapability
+                setter: setFinancialCapability
+            xml_list:
+                inline: true
+                entry_name: FinancialCapability
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\FinancialCapability>
+        completedTask:
+            expose: true
+            access_type: public_method
+            serialized_name: CompletedTask
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCompletedTask
+                setter: setCompletedTask
+            xml_list:
+                inline: true
+                entry_name: CompletedTask
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\CompletedTask>
+        declaration:
+            expose: true
+            access_type: public_method
+            serialized_name: Declaration
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeclaration
+                setter: setDeclaration
+            xml_list:
+                inline: true
+                entry_name: Declaration
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Declaration>
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Party
+        economicOperatorRole:
+            expose: true
+            access_type: public_method
+            serialized_name: EconomicOperatorRole
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEconomicOperatorRole
+                setter: setEconomicOperatorRole
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EconomicOperatorRole

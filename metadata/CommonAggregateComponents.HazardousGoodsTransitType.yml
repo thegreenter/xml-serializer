@@ -1,0 +1,79 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\HazardousGoodsTransitType:
+    properties:
+        transportEmergencyCardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEmergencyCardCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportEmergencyCardCode
+                setter: setTransportEmergencyCardCode
+            type: Greenter\Ubl\Entity\CommonBasic\TransportEmergencyCardCode
+        packingCriteriaCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingCriteriaCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackingCriteriaCode
+                setter: setPackingCriteriaCode
+            type: Greenter\Ubl\Entity\CommonBasic\PackingCriteriaCode
+        hazardousRegulationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRegulationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRegulationCode
+                setter: setHazardousRegulationCode
+            type: Greenter\Ubl\Entity\CommonBasic\HazardousRegulationCode
+        inhalationToxicityZoneCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InhalationToxicityZoneCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInhalationToxicityZoneCode
+                setter: setInhalationToxicityZoneCode
+            type: Greenter\Ubl\Entity\CommonBasic\InhalationToxicityZoneCode
+        transportAuthorizationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportAuthorizationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportAuthorizationCode
+                setter: setTransportAuthorizationCode
+            type: Greenter\Ubl\Entity\CommonBasic\TransportAuthorizationCode
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTemperature
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MaximumTemperature
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumTemperature
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MinimumTemperature

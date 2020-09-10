@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonBasic\AccountFormatCode:
+    xml_root_name: AccountFormatCode
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

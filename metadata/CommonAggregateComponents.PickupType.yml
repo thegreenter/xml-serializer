@@ -1,0 +1,101 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PickupType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        actualPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualPickupDate
+                setter: setActualPickupDate
+            type: Greenter\Ubl\Entity\CommonBasic\ActualPickupDate
+        actualPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualPickupTime
+                setter: setActualPickupTime
+            type: Greenter\Ubl\Entity\CommonBasic\ActualPickupTime
+        earliestPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EarliestPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEarliestPickupDate
+                setter: setEarliestPickupDate
+            type: Greenter\Ubl\Entity\CommonBasic\EarliestPickupDate
+        earliestPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EarliestPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEarliestPickupTime
+                setter: setEarliestPickupTime
+            type: Greenter\Ubl\Entity\CommonBasic\EarliestPickupTime
+        latestPickupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestPickupDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestPickupDate
+                setter: setLatestPickupDate
+            type: Greenter\Ubl\Entity\CommonBasic\LatestPickupDate
+        latestPickupTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestPickupTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestPickupTime
+                setter: setLatestPickupTime
+            type: Greenter\Ubl\Entity\CommonBasic\LatestPickupTime
+        pickupLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPickupLocation
+                setter: setPickupLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PickupLocation
+        pickupParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPickupParty
+                setter: setPickupParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PickupParty

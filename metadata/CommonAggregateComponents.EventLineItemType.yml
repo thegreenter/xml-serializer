@@ -1,0 +1,50 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\EventLineItemType:
+    properties:
+        lineNumberNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: LineNumberNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineNumberNumeric
+                setter: setLineNumberNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\LineNumberNumeric
+        participatingLocationsLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipatingLocationsLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParticipatingLocationsLocation
+                setter: setParticipatingLocationsLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ParticipatingLocationsLocation
+        retailPlannedImpact:
+            expose: true
+            access_type: public_method
+            serialized_name: RetailPlannedImpact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRetailPlannedImpact
+                setter: setRetailPlannedImpact
+            xml_list:
+                inline: true
+                entry_name: RetailPlannedImpact
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\RetailPlannedImpact>
+        supplyItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplyItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupplyItem
+                setter: setSupplyItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SupplyItem

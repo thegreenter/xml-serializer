@@ -1,0 +1,219 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PaymentTermsType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        paymentMeansID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansID
+                setter: setPaymentMeansID
+            xml_list:
+                inline: true
+                entry_name: PaymentMeansID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\PaymentMeansID>
+        prepaidPaymentReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidPaymentReferenceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrepaidPaymentReferenceID
+                setter: setPrepaidPaymentReferenceID
+            type: Greenter\Ubl\Entity\CommonBasic\PrepaidPaymentReferenceID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        referenceEventCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceEventCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceEventCode
+                setter: setReferenceEventCode
+            type: Greenter\Ubl\Entity\CommonBasic\ReferenceEventCode
+        settlementDiscountPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementDiscountPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSettlementDiscountPercent
+                setter: setSettlementDiscountPercent
+            type: Greenter\Ubl\Entity\CommonBasic\SettlementDiscountPercent
+        penaltySurchargePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltySurchargePercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltySurchargePercent
+                setter: setPenaltySurchargePercent
+            type: Greenter\Ubl\Entity\CommonBasic\PenaltySurchargePercent
+        paymentPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentPercent
+                setter: setPaymentPercent
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentPercent
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: Greenter\Ubl\Entity\CommonBasic\Amount
+        settlementDiscountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementDiscountAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSettlementDiscountAmount
+                setter: setSettlementDiscountAmount
+            type: Greenter\Ubl\Entity\CommonBasic\SettlementDiscountAmount
+        penaltyAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltyAmount
+                setter: setPenaltyAmount
+            type: Greenter\Ubl\Entity\CommonBasic\PenaltyAmount
+        paymentTermsDetailsURI:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTermsDetailsURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentTermsDetailsURI
+                setter: setPaymentTermsDetailsURI
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentTermsDetailsURI
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentDueDate
+        installmentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: InstallmentDueDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstallmentDueDate
+                setter: setInstallmentDueDate
+            type: Greenter\Ubl\Entity\CommonBasic\InstallmentDueDate
+        invoicingPartyReference:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoicingPartyReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInvoicingPartyReference
+                setter: setInvoicingPartyReference
+            type: Greenter\Ubl\Entity\CommonBasic\InvoicingPartyReference
+        settlementPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSettlementPeriod
+                setter: setSettlementPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SettlementPeriod
+        penaltyPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPenaltyPeriod
+                setter: setPenaltyPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PenaltyPeriod
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ExchangeRate
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ValidityPeriod

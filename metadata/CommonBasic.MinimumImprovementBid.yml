@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonBasic\MinimumImprovementBid:
+    xml_root_name: MinimumImprovementBid
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -1,0 +1,35 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\RegulationType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        legalReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLegalReference
+                setter: setLegalReference
+            type: Greenter\Ubl\Entity\CommonBasic\LegalReference
+        ontologyURI:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOntologyURI
+                setter: setOntologyURI
+            type: Greenter\Ubl\Entity\CommonBasic\OntologyURI

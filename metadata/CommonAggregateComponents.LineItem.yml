@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\LineItem:
+    xml_root_name: LineItem
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

@@ -1,0 +1,35 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\CommunicationType:
+    properties:
+        channelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ChannelCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChannelCode
+                setter: setChannelCode
+            type: Greenter\Ubl\Entity\CommonBasic\ChannelCode
+        channel:
+            expose: true
+            access_type: public_method
+            serialized_name: Channel
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChannel
+                setter: setChannel
+            type: Greenter\Ubl\Entity\CommonBasic\Channel
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: Greenter\Ubl\Entity\CommonBasic\Value

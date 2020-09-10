@@ -1,0 +1,3 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\StatementDocumentReference:
+    xml_root_name: StatementDocumentReference
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

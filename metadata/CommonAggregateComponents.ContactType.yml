@@ -1,0 +1,87 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ContactType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: Telephone
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            type: Greenter\Ubl\Entity\CommonBasic\Telephone
+        telefax:
+            expose: true
+            access_type: public_method
+            serialized_name: Telefax
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelefax
+                setter: setTelefax
+            type: Greenter\Ubl\Entity\CommonBasic\Telefax
+        electronicMail:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicMail
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicMail
+                setter: setElectronicMail
+            type: Greenter\Ubl\Entity\CommonBasic\ElectronicMail
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        otherCommunication:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherCommunication
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOtherCommunication
+                setter: setOtherCommunication
+            xml_list:
+                inline: true
+                entry_name: OtherCommunication
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\OtherCommunication>

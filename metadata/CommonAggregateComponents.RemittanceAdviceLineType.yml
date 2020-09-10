@@ -1,0 +1,216 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\RemittanceAdviceLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        debitLineAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DebitLineAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDebitLineAmount
+                setter: setDebitLineAmount
+            type: Greenter\Ubl\Entity\CommonBasic\DebitLineAmount
+        creditLineAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditLineAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCreditLineAmount
+                setter: setCreditLineAmount
+            type: Greenter\Ubl\Entity\CommonBasic\CreditLineAmount
+        balanceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: BalanceAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBalanceAmount
+                setter: setBalanceAmount
+            type: Greenter\Ubl\Entity\CommonBasic\BalanceAmount
+        paymentPurposeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentPurposeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentPurposeCode
+                setter: setPaymentPurposeCode
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentPurposeCode
+        invoicingPartyReference:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoicingPartyReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInvoicingPartyReference
+                setter: setInvoicingPartyReference
+            type: Greenter\Ubl\Entity\CommonBasic\InvoicingPartyReference
+        accountingSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingSupplierParty
+                setter: setAccountingSupplierParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AccountingSupplierParty
+        accountingCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingCustomerParty
+                setter: setAccountingCustomerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AccountingCustomerParty
+        buyerCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerCustomerParty
+                setter: setBuyerCustomerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\BuyerCustomerParty
+        sellerSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSupplierParty
+                setter: setSellerSupplierParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SellerSupplierParty
+        originatorCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginatorCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginatorCustomerParty
+                setter: setOriginatorCustomerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\OriginatorCustomerParty
+        payeeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeParty
+                setter: setPayeeParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PayeeParty
+        invoicePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoicePeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInvoicePeriod
+                setter: setInvoicePeriod
+            xml_list:
+                inline: true
+                entry_name: InvoicePeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\InvoicePeriod>
+        billingReference:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBillingReference
+                setter: setBillingReference
+            xml_list:
+                inline: true
+                entry_name: BillingReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\BillingReference>
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference>
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ExchangeRate

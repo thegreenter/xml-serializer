@@ -1,0 +1,539 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TenderingTermsType:
+    properties:
+        awardingMethodTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardingMethodTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAwardingMethodTypeCode
+                setter: setAwardingMethodTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\AwardingMethodTypeCode
+        priceEvaluationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceEvaluationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceEvaluationCode
+                setter: setPriceEvaluationCode
+            type: Greenter\Ubl\Entity\CommonBasic\PriceEvaluationCode
+        maximumVariantQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumVariantQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumVariantQuantity
+                setter: setMaximumVariantQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumVariantQuantity
+        variantConstraintIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: VariantConstraintIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVariantConstraintIndicator
+                setter: setVariantConstraintIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\VariantConstraintIndicator
+        acceptedVariantsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: AcceptedVariantsDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAcceptedVariantsDescription
+                setter: setAcceptedVariantsDescription
+            xml_list:
+                inline: true
+                entry_name: AcceptedVariantsDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\AcceptedVariantsDescription>
+        priceRevisionFormulaDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceRevisionFormulaDescription
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceRevisionFormulaDescription
+                setter: setPriceRevisionFormulaDescription
+            xml_list:
+                inline: true
+                entry_name: PriceRevisionFormulaDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\PriceRevisionFormulaDescription>
+        fundingProgramCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FundingProgramCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFundingProgramCode
+                setter: setFundingProgramCode
+            type: Greenter\Ubl\Entity\CommonBasic\FundingProgramCode
+        fundingProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: FundingProgram
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFundingProgram
+                setter: setFundingProgram
+            xml_list:
+                inline: true
+                entry_name: FundingProgram
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\FundingProgram>
+        maximumAdvertisementAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumAdvertisementAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumAdvertisementAmount
+                setter: setMaximumAdvertisementAmount
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumAdvertisementAmount
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        paymentFrequencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentFrequencyCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentFrequencyCode
+                setter: setPaymentFrequencyCode
+            type: Greenter\Ubl\Entity\CommonBasic\PaymentFrequencyCode
+        economicOperatorRegistryURI:
+            expose: true
+            access_type: public_method
+            serialized_name: EconomicOperatorRegistryURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEconomicOperatorRegistryURI
+                setter: setEconomicOperatorRegistryURI
+            type: Greenter\Ubl\Entity\CommonBasic\EconomicOperatorRegistryURI
+        requiredCurriculaIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredCurriculaIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequiredCurriculaIndicator
+                setter: setRequiredCurriculaIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\RequiredCurriculaIndicator
+        otherConditionsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherConditionsIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOtherConditionsIndicator
+                setter: setOtherConditionsIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\OtherConditionsIndicator
+        additionalConditions:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalConditions
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalConditions
+                setter: setAdditionalConditions
+            xml_list:
+                inline: true
+                entry_name: AdditionalConditions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\AdditionalConditions>
+        latestSecurityClearanceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestSecurityClearanceDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestSecurityClearanceDate
+                setter: setLatestSecurityClearanceDate
+            type: Greenter\Ubl\Entity\CommonBasic\LatestSecurityClearanceDate
+        documentationFeeAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentationFeeAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentationFeeAmount
+                setter: setDocumentationFeeAmount
+            type: Greenter\Ubl\Entity\CommonBasic\DocumentationFeeAmount
+        penaltyClause:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyClause
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPenaltyClause
+                setter: setPenaltyClause
+            xml_list:
+                inline: true
+                entry_name: PenaltyClause
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PenaltyClause>
+        requiredFinancialGuarantee:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredFinancialGuarantee
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequiredFinancialGuarantee
+                setter: setRequiredFinancialGuarantee
+            xml_list:
+                inline: true
+                entry_name: RequiredFinancialGuarantee
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\RequiredFinancialGuarantee>
+        procurementLegislationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementLegislationDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcurementLegislationDocumentReference
+                setter: setProcurementLegislationDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ProcurementLegislationDocumentReference
+        fiscalLegislationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: FiscalLegislationDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFiscalLegislationDocumentReference
+                setter: setFiscalLegislationDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\FiscalLegislationDocumentReference
+        environmentalLegislationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: EnvironmentalLegislationDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEnvironmentalLegislationDocumentReference
+                setter: setEnvironmentalLegislationDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EnvironmentalLegislationDocumentReference
+        employmentLegislationDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: EmploymentLegislationDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEmploymentLegislationDocumentReference
+                setter: setEmploymentLegislationDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EmploymentLegislationDocumentReference
+        contractualDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractualDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractualDocumentReference
+                setter: setContractualDocumentReference
+            xml_list:
+                inline: true
+                entry_name: ContractualDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ContractualDocumentReference>
+        callForTendersDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CallForTendersDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCallForTendersDocumentReference
+                setter: setCallForTendersDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CallForTendersDocumentReference
+        warrantyValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: WarrantyValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getWarrantyValidityPeriod
+                setter: setWarrantyValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\WarrantyValidityPeriod
+        paymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentTerms
+                setter: setPaymentTerms
+            xml_list:
+                inline: true
+                entry_name: PaymentTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PaymentTerms>
+        tendererQualificationRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: TendererQualificationRequest
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTendererQualificationRequest
+                setter: setTendererQualificationRequest
+            xml_list:
+                inline: true
+                entry_name: TendererQualificationRequest
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TendererQualificationRequest>
+        allowedSubcontractTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowedSubcontractTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowedSubcontractTerms
+                setter: setAllowedSubcontractTerms
+            xml_list:
+                inline: true
+                entry_name: AllowedSubcontractTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\AllowedSubcontractTerms>
+        tenderPreparation:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderPreparation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderPreparation
+                setter: setTenderPreparation
+            xml_list:
+                inline: true
+                entry_name: TenderPreparation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TenderPreparation>
+        contractExecutionRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractExecutionRequirement
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractExecutionRequirement
+                setter: setContractExecutionRequirement
+            xml_list:
+                inline: true
+                entry_name: ContractExecutionRequirement
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ContractExecutionRequirement>
+        awardingTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardingTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAwardingTerms
+                setter: setAwardingTerms
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AwardingTerms
+        additionalInformationParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInformationParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalInformationParty
+                setter: setAdditionalInformationParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AdditionalInformationParty
+        documentProviderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentProviderParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentProviderParty
+                setter: setDocumentProviderParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DocumentProviderParty
+        tenderRecipientParty:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderRecipientParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderRecipientParty
+                setter: setTenderRecipientParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TenderRecipientParty
+        contractResponsibleParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractResponsibleParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractResponsibleParty
+                setter: setContractResponsibleParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ContractResponsibleParty
+        tenderEvaluationParty:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderEvaluationParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderEvaluationParty
+                setter: setTenderEvaluationParty
+            xml_list:
+                inline: true
+                entry_name: TenderEvaluationParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\TenderEvaluationParty>
+        tenderValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderValidityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderValidityPeriod
+                setter: setTenderValidityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TenderValidityPeriod
+        contractAcceptancePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractAcceptancePeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContractAcceptancePeriod
+                setter: setContractAcceptancePeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ContractAcceptancePeriod
+        appealTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: AppealTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAppealTerms
+                setter: setAppealTerms
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AppealTerms
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_list:
+                inline: true
+                entry_name: Language
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Language>
+        budgetAccountLine:
+            expose: true
+            access_type: public_method
+            serialized_name: BudgetAccountLine
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBudgetAccountLine
+                setter: setBudgetAccountLine
+            xml_list:
+                inline: true
+                entry_name: BudgetAccountLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\BudgetAccountLine>
+        replacedNoticeDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReplacedNoticeDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReplacedNoticeDocumentReference
+                setter: setReplacedNoticeDocumentReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ReplacedNoticeDocumentReference

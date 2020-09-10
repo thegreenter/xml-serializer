@@ -1,0 +1,50 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PhysicalAttributeType:
+    properties:
+        attributeID:
+            expose: true
+            access_type: public_method
+            serialized_name: AttributeID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAttributeID
+                setter: setAttributeID
+            type: Greenter\Ubl\Entity\CommonBasic\AttributeID
+        positionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PositionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPositionCode
+                setter: setPositionCode
+            type: Greenter\Ubl\Entity\CommonBasic\PositionCode
+        descriptionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DescriptionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescriptionCode
+                setter: setDescriptionCode
+            type: Greenter\Ubl\Entity\CommonBasic\DescriptionCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>

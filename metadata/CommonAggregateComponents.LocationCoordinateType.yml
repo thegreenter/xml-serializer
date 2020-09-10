@@ -1,0 +1,90 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\LocationCoordinateType:
+    properties:
+        coordinateSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CoordinateSystemCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCoordinateSystemCode
+                setter: setCoordinateSystemCode
+            type: Greenter\Ubl\Entity\CommonBasic\CoordinateSystemCode
+        latitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDegreesMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDegreesMeasure
+                setter: setLatitudeDegreesMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\LatitudeDegreesMeasure
+        latitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeMinutesMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeMinutesMeasure
+                setter: setLatitudeMinutesMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\LatitudeMinutesMeasure
+        latitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDirectionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDirectionCode
+                setter: setLatitudeDirectionCode
+            type: Greenter\Ubl\Entity\CommonBasic\LatitudeDirectionCode
+        longitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDegreesMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDegreesMeasure
+                setter: setLongitudeDegreesMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\LongitudeDegreesMeasure
+        longitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeMinutesMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeMinutesMeasure
+                setter: setLongitudeMinutesMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\LongitudeMinutesMeasure
+        longitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDirectionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDirectionCode
+                setter: setLongitudeDirectionCode
+            type: Greenter\Ubl\Entity\CommonBasic\LongitudeDirectionCode
+        altitudeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: AltitudeMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAltitudeMeasure
+                setter: setAltitudeMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\AltitudeMeasure

@@ -1,0 +1,239 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PartyType:
+    properties:
+        markCareIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkCareIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkCareIndicator
+                setter: setMarkCareIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\MarkCareIndicator
+        markAttentionIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkAttentionIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkAttentionIndicator
+                setter: setMarkAttentionIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\MarkAttentionIndicator
+        websiteURI:
+            expose: true
+            access_type: public_method
+            serialized_name: WebsiteURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWebsiteURI
+                setter: setWebsiteURI
+            type: Greenter\Ubl\Entity\CommonBasic\WebsiteURI
+        logoReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: LogoReferenceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLogoReferenceID
+                setter: setLogoReferenceID
+            type: Greenter\Ubl\Entity\CommonBasic\LogoReferenceID
+        endpointID:
+            expose: true
+            access_type: public_method
+            serialized_name: EndpointID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndpointID
+                setter: setEndpointID
+            type: Greenter\Ubl\Entity\CommonBasic\EndpointID
+        industryClassificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IndustryClassificationCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIndustryClassificationCode
+                setter: setIndustryClassificationCode
+            type: Greenter\Ubl\Entity\CommonBasic\IndustryClassificationCode
+        partyIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyIdentification
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyIdentification
+                setter: setPartyIdentification
+            xml_list:
+                inline: true
+                entry_name: PartyIdentification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PartyIdentification>
+        partyName:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyName
+                setter: setPartyName
+            xml_list:
+                inline: true
+                entry_name: PartyName
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PartyName>
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Language
+        postalAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPostalAddress
+                setter: setPostalAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PostalAddress
+        physicalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PhysicalLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPhysicalLocation
+                setter: setPhysicalLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PhysicalLocation
+        partyTaxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyTaxScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyTaxScheme
+                setter: setPartyTaxScheme
+            xml_list:
+                inline: true
+                entry_name: PartyTaxScheme
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PartyTaxScheme>
+        partyLegalEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyLegalEntity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyLegalEntity
+                setter: setPartyLegalEntity
+            xml_list:
+                inline: true
+                entry_name: PartyLegalEntity
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PartyLegalEntity>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Contact
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: Person
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            xml_list:
+                inline: true
+                entry_name: Person
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Person>
+        agentParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AgentParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAgentParty
+                setter: setAgentParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AgentParty
+        serviceProviderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceProviderParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getServiceProviderParty
+                setter: setServiceProviderParty
+            xml_list:
+                inline: true
+                entry_name: ServiceProviderParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\ServiceProviderParty>
+        powerOfAttorney:
+            expose: true
+            access_type: public_method
+            serialized_name: PowerOfAttorney
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPowerOfAttorney
+                setter: setPowerOfAttorney
+            xml_list:
+                inline: true
+                entry_name: PowerOfAttorney
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\PowerOfAttorney>
+        financialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialAccount
+                setter: setFinancialAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\FinancialAccount

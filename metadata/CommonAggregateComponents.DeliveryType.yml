@@ -1,0 +1,274 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\Quantity
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MinimumQuantity
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumQuantity
+        actualDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryDate
+                setter: setActualDeliveryDate
+            type: Greenter\Ubl\Entity\CommonBasic\ActualDeliveryDate
+        actualDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryTime
+                setter: setActualDeliveryTime
+            type: Greenter\Ubl\Entity\CommonBasic\ActualDeliveryTime
+        latestDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryDate
+                setter: setLatestDeliveryDate
+            type: Greenter\Ubl\Entity\CommonBasic\LatestDeliveryDate
+        latestDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryTime
+                setter: setLatestDeliveryTime
+            type: Greenter\Ubl\Entity\CommonBasic\LatestDeliveryTime
+        releaseID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReleaseID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReleaseID
+                setter: setReleaseID
+            type: Greenter\Ubl\Entity\CommonBasic\ReleaseID
+        trackingID:
+            expose: true
+            access_type: public_method
+            serialized_name: TrackingID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTrackingID
+                setter: setTrackingID
+            type: Greenter\Ubl\Entity\CommonBasic\TrackingID
+        deliveryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryAddress
+                setter: setDeliveryAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryAddress
+        deliveryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryLocation
+                setter: setDeliveryLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryLocation
+        alternativeDeliveryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeDeliveryLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAlternativeDeliveryLocation
+                setter: setAlternativeDeliveryLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\AlternativeDeliveryLocation
+        requestedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDeliveryPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedDeliveryPeriod
+                setter: setRequestedDeliveryPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RequestedDeliveryPeriod
+        promisedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PromisedDeliveryPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPromisedDeliveryPeriod
+                setter: setPromisedDeliveryPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\PromisedDeliveryPeriod
+        estimatedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDeliveryPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDeliveryPeriod
+                setter: setEstimatedDeliveryPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\EstimatedDeliveryPeriod
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\CarrierParty
+        deliveryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryParty
+                setter: setDeliveryParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryParty
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            xml_list:
+                inline: true
+                entry_name: NotifyParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\NotifyParty>
+        despatch:
+            expose: true
+            access_type: public_method
+            serialized_name: Despatch
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatch
+                setter: setDespatch
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Despatch
+        deliveryTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTerms
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryTerms
+                setter: setDeliveryTerms
+            xml_list:
+                inline: true
+                entry_name: DeliveryTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DeliveryTerms>
+        minimumDeliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumDeliveryUnit
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumDeliveryUnit
+                setter: setMinimumDeliveryUnit
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MinimumDeliveryUnit
+        maximumDeliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumDeliveryUnit
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumDeliveryUnit
+                setter: setMaximumDeliveryUnit
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\MaximumDeliveryUnit
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Shipment

@@ -1,0 +1,193 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PersonType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: Greenter\Ubl\Entity\CommonBasic\FirstName
+        familyName:
+            expose: true
+            access_type: public_method
+            serialized_name: FamilyName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFamilyName
+                setter: setFamilyName
+            type: Greenter\Ubl\Entity\CommonBasic\FamilyName
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: Greenter\Ubl\Entity\CommonBasic\Title
+        middleName:
+            expose: true
+            access_type: public_method
+            serialized_name: MiddleName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMiddleName
+                setter: setMiddleName
+            type: Greenter\Ubl\Entity\CommonBasic\MiddleName
+        otherName:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOtherName
+                setter: setOtherName
+            type: Greenter\Ubl\Entity\CommonBasic\OtherName
+        nameSuffix:
+            expose: true
+            access_type: public_method
+            serialized_name: NameSuffix
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameSuffix
+                setter: setNameSuffix
+            type: Greenter\Ubl\Entity\CommonBasic\NameSuffix
+        jobTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: JobTitle
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getJobTitle
+                setter: setJobTitle
+            type: Greenter\Ubl\Entity\CommonBasic\JobTitle
+        nationalityID:
+            expose: true
+            access_type: public_method
+            serialized_name: NationalityID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNationalityID
+                setter: setNationalityID
+            type: Greenter\Ubl\Entity\CommonBasic\NationalityID
+        genderCode:
+            expose: true
+            access_type: public_method
+            serialized_name: GenderCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGenderCode
+                setter: setGenderCode
+            type: Greenter\Ubl\Entity\CommonBasic\GenderCode
+        birthDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BirthDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBirthDate
+                setter: setBirthDate
+            type: Greenter\Ubl\Entity\CommonBasic\BirthDate
+        birthplaceName:
+            expose: true
+            access_type: public_method
+            serialized_name: BirthplaceName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBirthplaceName
+                setter: setBirthplaceName
+            type: Greenter\Ubl\Entity\CommonBasic\BirthplaceName
+        organizationDepartment:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationDepartment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrganizationDepartment
+                setter: setOrganizationDepartment
+            type: Greenter\Ubl\Entity\CommonBasic\OrganizationDepartment
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Contact
+        financialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialAccount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialAccount
+                setter: setFinancialAccount
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\FinancialAccount
+        identityDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentityDocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIdentityDocumentReference
+                setter: setIdentityDocumentReference
+            xml_list:
+                inline: true
+                entry_name: IdentityDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\IdentityDocumentReference>
+        residenceAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidenceAddress
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResidenceAddress
+                setter: setResidenceAddress
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ResidenceAddress

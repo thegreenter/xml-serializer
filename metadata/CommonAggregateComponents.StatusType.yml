@@ -1,0 +1,150 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\StatusType:
+    properties:
+        conditionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConditionCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConditionCode
+                setter: setConditionCode
+            type: Greenter\Ubl\Entity\CommonBasic\ConditionCode
+        referenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceDate
+                setter: setReferenceDate
+            type: Greenter\Ubl\Entity\CommonBasic\ReferenceDate
+        referenceTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceTime
+                setter: setReferenceTime
+            type: Greenter\Ubl\Entity\CommonBasic\ReferenceTime
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        statusReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStatusReasonCode
+                setter: setStatusReasonCode
+            type: Greenter\Ubl\Entity\CommonBasic\StatusReasonCode
+        statusReason:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStatusReason
+                setter: setStatusReason
+            xml_list:
+                inline: true
+                entry_name: StatusReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\StatusReason>
+        sequenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceID
+                setter: setSequenceID
+            type: Greenter\Ubl\Entity\CommonBasic\SequenceID
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: Text
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getText
+                setter: setText
+            xml_list:
+                inline: true
+                entry_name: Text
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Text>
+        indicationIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: IndicationIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIndicationIndicator
+                setter: setIndicationIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\IndicationIndicator
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: Greenter\Ubl\Entity\CommonBasic\Percent
+        reliabilityPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: ReliabilityPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReliabilityPercent
+                setter: setReliabilityPercent
+            type: Greenter\Ubl\Entity\CommonBasic\ReliabilityPercent
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            xml_list:
+                inline: true
+                entry_name: Condition
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Condition>

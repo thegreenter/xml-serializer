@@ -1,0 +1,68 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\PaymentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        paidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidAmount
+                setter: setPaidAmount
+            type: Greenter\Ubl\Entity\CommonBasic\PaidAmount
+        receivedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedDate
+                setter: setReceivedDate
+            type: Greenter\Ubl\Entity\CommonBasic\ReceivedDate
+        paidDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidDate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidDate
+                setter: setPaidDate
+            type: Greenter\Ubl\Entity\CommonBasic\PaidDate
+        paidTime:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidTime
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidTime
+                setter: setPaidTime
+            type: Greenter\Ubl\Entity\CommonBasic\PaidTime
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: Greenter\Ubl\Entity\CommonBasic\InstructionID

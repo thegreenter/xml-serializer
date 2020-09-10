@@ -1,0 +1,65 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DocumentResponseType:
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Response
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference>
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\IssuerParty
+        recipientParty:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRecipientParty
+                setter: setRecipientParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RecipientParty
+        lineResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: LineResponse
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineResponse
+                setter: setLineResponse
+            xml_list:
+                inline: true
+                entry_name: LineResponse
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\LineResponse>

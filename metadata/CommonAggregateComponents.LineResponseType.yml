@@ -1,0 +1,28 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\LineResponseType:
+    properties:
+        lineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineReference
+                setter: setLineReference
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\LineReference
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            xml_list:
+                inline: true
+                entry_name: Response
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Response>

@@ -1,0 +1,35 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\BudgetAccountType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        budgetYearNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: BudgetYearNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBudgetYearNumeric
+                setter: setBudgetYearNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\BudgetYearNumeric
+        requiredClassificationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredClassificationScheme
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequiredClassificationScheme
+                setter: setRequiredClassificationScheme
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\RequiredClassificationScheme

@@ -1,0 +1,112 @@
+Greenter\Ubl\Entity\Common\UBLExtensionType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Greenter\Ubl\Entity\CommonBasic\Name
+        extensionAgencyID:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionAgencyID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionAgencyID
+                setter: setExtensionAgencyID
+            type: Greenter\Ubl\Entity\Common\ExtensionAgencyID
+        extensionAgencyName:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionAgencyName
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionAgencyName
+                setter: setExtensionAgencyName
+            type: Greenter\Ubl\Entity\Common\ExtensionAgencyName
+        extensionVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionVersionID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionVersionID
+                setter: setExtensionVersionID
+            type: Greenter\Ubl\Entity\Common\ExtensionVersionID
+        extensionAgencyURI:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionAgencyURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionAgencyURI
+                setter: setExtensionAgencyURI
+            type: Greenter\Ubl\Entity\Common\ExtensionAgencyURI
+        extensionURI:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionURI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionURI
+                setter: setExtensionURI
+            type: Greenter\Ubl\Entity\Common\ExtensionURI
+        extensionReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionReasonCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionReasonCode
+                setter: setExtensionReasonCode
+            type: Greenter\Ubl\Entity\Common\ExtensionReasonCode
+        extensionReason:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionReason
+                setter: setExtensionReason
+            type: Greenter\Ubl\Entity\Common\ExtensionReason
+        extensionContent:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtensionContent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getExtensionContent
+                setter: setExtensionContent
+            type: Greenter\Ubl\Entity\Common\ExtensionContent

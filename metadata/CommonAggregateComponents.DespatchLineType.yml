@@ -1,0 +1,180 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\DespatchLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: Greenter\Ubl\Entity\CommonBasic\UUID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Note>
+        lineStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LineStatusCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineStatusCode
+                setter: setLineStatusCode
+            type: Greenter\Ubl\Entity\CommonBasic\LineStatusCode
+        deliveredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveredQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeliveredQuantity
+                setter: setDeliveredQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\DeliveredQuantity
+        backorderQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: BackorderQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBackorderQuantity
+                setter: setBackorderQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\BackorderQuantity
+        backorderReason:
+            expose: true
+            access_type: public_method
+            serialized_name: BackorderReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBackorderReason
+                setter: setBackorderReason
+            xml_list:
+                inline: true
+                entry_name: BackorderReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\BackorderReason>
+        outstandingQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OutstandingQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOutstandingQuantity
+                setter: setOutstandingQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\OutstandingQuantity
+        outstandingReason:
+            expose: true
+            access_type: public_method
+            serialized_name: OutstandingReason
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOutstandingReason
+                setter: setOutstandingReason
+            xml_list:
+                inline: true
+                entry_name: OutstandingReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\OutstandingReason>
+        oversupplyQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OversupplyQuantity
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOversupplyQuantity
+                setter: setOversupplyQuantity
+            type: Greenter\Ubl\Entity\CommonBasic\OversupplyQuantity
+        orderLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderLineReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderLineReference
+                setter: setOrderLineReference
+            xml_list:
+                inline: true
+                entry_name: OrderLineReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\OrderLineReference>
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\DocumentReference>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\Item
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            xml_list:
+                inline: true
+                entry_name: Shipment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\Shipment>

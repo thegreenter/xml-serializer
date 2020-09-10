@@ -1,0 +1,112 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\TaxSubtotalType:
+    properties:
+        taxableAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxableAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxableAmount
+                setter: setTaxableAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TaxableAmount
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TaxAmount
+        calculationSequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationSequenceNumeric
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationSequenceNumeric
+                setter: setCalculationSequenceNumeric
+            type: Greenter\Ubl\Entity\CommonBasic\CalculationSequenceNumeric
+        transactionCurrencyTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionCurrencyTaxAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransactionCurrencyTaxAmount
+                setter: setTransactionCurrencyTaxAmount
+            type: Greenter\Ubl\Entity\CommonBasic\TransactionCurrencyTaxAmount
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: Greenter\Ubl\Entity\CommonBasic\Percent
+        baseUnitMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseUnitMeasure
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseUnitMeasure
+                setter: setBaseUnitMeasure
+            type: Greenter\Ubl\Entity\CommonBasic\BaseUnitMeasure
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: Greenter\Ubl\Entity\CommonBasic\PerUnitAmount
+        tierRange:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRange
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRange
+                setter: setTierRange
+            type: Greenter\Ubl\Entity\CommonBasic\TierRange
+        tierRatePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRatePercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRatePercent
+                setter: setTierRatePercent
+            type: Greenter\Ubl\Entity\CommonBasic\TierRatePercent
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\TaxCategory

@@ -1,0 +1,83 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\SubcontractTermsType:
+    properties:
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: Rate
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRate
+                setter: setRate
+            type: Greenter\Ubl\Entity\CommonBasic\Rate
+        unknownPriceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownPriceIndicator
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUnknownPriceIndicator
+                setter: setUnknownPriceIndicator
+            type: Greenter\Ubl\Entity\CommonBasic\UnknownPriceIndicator
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonBasic\Description>
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: Greenter\Ubl\Entity\CommonBasic\Amount
+        subcontractingConditionsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubcontractingConditionsCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubcontractingConditionsCode
+                setter: setSubcontractingConditionsCode
+            type: Greenter\Ubl\Entity\CommonBasic\SubcontractingConditionsCode
+        maximumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPercent
+                setter: setMaximumPercent
+            type: Greenter\Ubl\Entity\CommonBasic\MaximumPercent
+        minimumPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumPercent
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumPercent
+                setter: setMinimumPercent
+            type: Greenter\Ubl\Entity\CommonBasic\MinimumPercent

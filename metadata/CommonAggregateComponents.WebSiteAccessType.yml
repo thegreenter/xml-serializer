@@ -1,0 +1,35 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\WebSiteAccessType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getURI
+                setter: setURI
+            type: Greenter\Ubl\Entity\CommonBasic\URI
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: Password
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            type: Greenter\Ubl\Entity\CommonBasic\Password
+        login:
+            expose: true
+            access_type: public_method
+            serialized_name: Login
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLogin
+                setter: setLogin
+            type: Greenter\Ubl\Entity\CommonBasic\Login

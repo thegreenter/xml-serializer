@@ -1,0 +1,94 @@
+Greenter\Ubl\Entity\CommonAggregateComponents\ActivityDataLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: Greenter\Ubl\Entity\CommonBasic\ID
+        supplyChainActivityTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplyChainActivityTypeCode
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSupplyChainActivityTypeCode
+                setter: setSupplyChainActivityTypeCode
+            type: Greenter\Ubl\Entity\CommonBasic\SupplyChainActivityTypeCode
+        buyerCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerCustomerParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerCustomerParty
+                setter: setBuyerCustomerParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\BuyerCustomerParty
+        sellerSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSupplierParty
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSupplierParty
+                setter: setSellerSupplierParty
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\SellerSupplierParty
+        activityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActivityPeriod
+                setter: setActivityPeriod
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ActivityPeriod
+        activityOriginLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityOriginLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActivityOriginLocation
+                setter: setActivityOriginLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ActivityOriginLocation
+        activityFinalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityFinalLocation
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActivityFinalLocation
+                setter: setActivityFinalLocation
+            type: Greenter\Ubl\Entity\CommonAggregateComponents\ActivityFinalLocation
+        salesItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesItem
+            xml_element:
+                cdata: false
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSalesItem
+                setter: setSalesItem
+            xml_list:
+                inline: true
+                entry_name: SalesItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<Greenter\Ubl\Entity\CommonAggregateComponents\SalesItem>
