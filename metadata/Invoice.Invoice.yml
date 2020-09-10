@@ -1,3 +1,8 @@
 Greenter\Ubl\Entity\Invoice\Invoice:
     xml_root_name: Invoice
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2'
+    xml_namespaces:
+        cac: "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+        cbc: "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+        ds: "http://www.w3.org/2000/09/xmldsig#"
+        ext: "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
