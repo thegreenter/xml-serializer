@@ -32,7 +32,7 @@ class InvoiceTest extends TestCase
         $xml = $this->serializer->serialize($invoice, 'xml');
 
         $this->assertNotEmpty($xml);
-        file_put_contents('output.xml', $xml);
+        file_put_contents('invoice.xml', $xml);
     }
 
     private function newInvoice(): Invoice
