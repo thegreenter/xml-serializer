@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Greenter\Ubl\Jms;
 
 use JMS\Serializer\Context;
@@ -31,13 +33,13 @@ class XmlSchemaDateHandler implements SubscribingHandlerInterface
     {
         $v = $date->format('Y-m-d');
 
-        return $visitor->visitSimpleString($v, $type, $context);
+        return $visitor->visitSimpleString($v, $type);
     }
 
     public function serializeDateTime(XmlSerializationVisitor $visitor, \DateTime $date, array $type, Context $context)
     {
         $v = $date->format('H:i:s');
 
-        return $visitor->visitSimpleString($v, $type, $context);
+        return $visitor->visitSimpleString($v, $type);
     }
 }
