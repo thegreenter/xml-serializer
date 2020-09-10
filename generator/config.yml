@@ -1,0 +1,40 @@
+xsd2php:
+  namespaces:
+    'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2': 'Greenter\Ubl\Entity\Invoice'
+    'urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2': 'Greenter\Ubl\Entity\CreditNote'
+    'urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2': 'Greenter\Ubl\Entity\DebitNote'
+    'urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1': 'Greenter\Ubl\Entity\Summary'
+    'urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1': 'Greenter\Ubl\Entity\Voided'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2': 'Greenter\Ubl\Entity\Common'
+    'urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1': 'Greenter\Ubl\Entity\SunatAggregateComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2': 'Greenter\Ubl\Entity\CommonBasic'
+    'urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2': 'Greenter\Ubl\Entity\Unqualified'
+    'urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2': 'Greenter\Ubl\Entity\CoreComponent'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2': 'Greenter\Ubl\Entity\CommonAggregateComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2': 'Greenter\Ubl\Entity\CommonSignatureComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2': 'Greenter\Ubl\Entity\SignatureAggregateComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2': 'Greenter\Ubl\Entity\SignatureBasicComponents'
+    'http://www.w3.org/2000/09/xmldsig#': 'Greenter\Ubl\Entity\Dsig'
+    'http://uri.etsi.org/01903/v1.3.2#': 'Greenter\Ubl\Entity\Etsi'
+    'http://uri.etsi.org/01903/v1.4.1#': 'Greenter\Ubl\Entity\Etsi4'
+  destinations_php:
+    'Greenter\Ubl\Entity': ubl/src
+  #    'TestNs\MyApp': soap\src  #  on Windows
+
+  destinations_jms:
+    'Greenter\Ubl\Entity': ubl/metadata
+    #    'TestNs\MyApp': soap\metadata  #  on Windows
+
+    #  Uncomment this section if you want to have also symfony/validator metadata to be generated from XSD
+    #  destinations_validation:
+    #    'TestNs\MyApp': soap/validation
+    #    'TestNs\MyApp': soap\validation  #  on Windows
+
+  #  aliases: # optional
+  #    'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2':
+  #      IssueDate: 'GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date'
+  #      IssueTime: 'GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime'
+  naming_strategy: short # optional and default
+  path_generator: psr4 # optional and default
+  configs_jms:
+    xml_cdata: false
